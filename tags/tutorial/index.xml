@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on </title>
+    <link>http://seedstack.org/tags/tutorial/</link>
+    <description>Recent content in Tutorial on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 11 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://seedstack.org/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Generating a SeedStack project</title>
+      <link>http://seedstack.org/guides/generating-a-project/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/generating-a-project/</guid>
+      <description>&lt;p&gt;Starting a project from scratch with Maven is not difficult but SeedStack makes it simpler with its generator. This
+guide goes through the generation process, step-by-step.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Add-on samples</title>
+      <link>http://seedstack.org/docs/samples/addon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/samples/addon/</guid>
+      <description>Web-Services add-on This sample demonstrates JAX-WS integration:
+ Basic Web-Service, Username token secured Web-Service, Certificate secured Web-Service, Client usage of those Web-Services.    GitHub: https://github.com/seedstack/samples/tree/master/addons/web-services Relevant docs: Web-Services add-on.
+   W20 bridge add-on This sample demonstrates integration of the W20 framework:
+ Usage of W20 JAR packaging, Custom W20 configuration handler, Basic W20 UI.    GitHub: https://github.com/seedstack/samples/tree/master/addons/w20-bridge Relevant docs: W20 bridge add-on.
+   Spring bridge This sample demonstrates the integration of Spring framework with SeedStack:</description>
+    </item>
+    
+    <item>
+      <title>Basic samples</title>
+      <link>http://seedstack.org/docs/samples/basic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/samples/basic/</guid>
+      <description>A lot of small samples, demonstrating basic SeedStack features:
+ Business code, Command-line,
+ Configuration, Logging, Security, Diagnostic, Custom Guice module, Custom plugin, Command-line, JAX-RS resources, Web servlets, filters and listeners, WebSocket, Integration testing.    GitHub: https://github.com/seedstack/samples/tree/master/basics
+   </description>
+    </item>
+    
+    <item>
+      <title>Business code</title>
+      <link>http://seedstack.org/docs/basics/business/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/business/</guid>
+      <description>Now it is time to spice up our &amp;laquo;Hello World&amp;raquo; application with some business code. With SeedStack business framework, it is easy to write clean and maintainable business code.
+Domain-Driven Design Domain-Driven Design is a software approach built on the idea of solving business problems through code. This is done by focusing on the heart of the business logic, to distill a design that can solve business problems.
+The business framework helps with the implementation of that domain model.</description>
+    </item>
+    
+    <item>
+      <title>Dependency injection</title>
+      <link>http://seedstack.org/docs/basics/dependency-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/dependency-injection/</guid>
+      <description>&lt;p&gt;SeedStack development model is based on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Dependency_injection&#34;&gt;dependency injection principle&lt;/a&gt;
+where the dependencies of a class are injected in it by the framework instead of looked up.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Download samples</title>
+      <link>http://seedstack.org/docs/samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/samples/</guid>
+      <description>&lt;p&gt;Try out the samples below to learn what SeedStack is capable of.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Full applications</title>
+      <link>http://seedstack.org/docs/samples/full/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/samples/full/</guid>
+      <description>Classic Web application This sample demonstrates a full end-to-end Web application:
+ Simple domain code, JPA persistence, REST resources, Assemblers, Pagination, Static resources serving, W20 UI.    GitHub: https://github.com/seedstack/samples/tree/master/full-apps/store-webapp Relevant docs: Business framework, JPA add-on, JDBC add-on, REST support, Web support, W20 UI framework.
+   REST micro-service This sample demonstrates an hypermedia-capable REST micro-service:
+ Business code JAX-RS resources, SeedStack hypermedia features: HAL and JSON-HOME. Integration testing.</description>
+    </item>
+    
+    <item>
+      <title>Getting started</title>
+      <link>http://seedstack.org/docs/basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/</guid>
+      <description>&lt;p&gt;This page will help you create and build your first SeedStack application.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Integration testing</title>
+      <link>http://seedstack.org/docs/core/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/testing/</guid>
+      <description>&lt;p&gt;SeedStack provides several features and tools to do integration testing in your application.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Learn the basics</title>
+      <link>http://seedstack.org/docs/basics/learn-the-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/learn-the-basics/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;SeedStack is an opinionated, simple Java development stack.&lt;/strong&gt; It is a general purpose development solution but does
+REST micro-services particularly well.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Persistence</title>
+      <link>http://seedstack.org/docs/basics/persistence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/persistence/</guid>
+      <description>Now that we have a domain model, we would like to use some persistence with it. In Domain-Driven Design, persistence is done with Repositories which work on whole aggregates.
+We need some data first! To be able to test this, we need some sample data. A class implementing LifecycleListener will provide the opportunity to insert data at application startup.
+In the package infrastructure, create a SampleDataGenerator class:
+package org.generated.project.infrastructure; import javax.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>http://seedstack.org/docs/business/tutorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/tutorial/</guid>
+      <description>&lt;p&gt;This tutorial will guide you step-by-step in building a full application with SeedStack business framework.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Web integration testing</title>
+      <link>http://seedstack.org/docs/web/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/testing/</guid>
+      <description>&lt;p&gt;SeedStack provides support to do integration testing of Web applications.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

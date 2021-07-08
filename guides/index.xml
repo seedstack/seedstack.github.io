@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on </title>
+    <link>http://seedstack.org/guides/</link>
+    <description>Recent content in Guides on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://seedstack.org/guides/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aggregate design</title>
+      <link>http://seedstack.org/guides/ddd-for-beginners/aggregate-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/ddd-for-beginners/aggregate-design/</guid>
+      <description>&lt;p&gt;Most business domains have very interconnected Entities, sometimes up to the point where there is always a path going
+from any Entity to any other. We can try to minimize the number of associations in our design, and this is a good practice
+but it can lead to a translation loss between business and software. In a typical object model, it is difficult to
+clearly see the boundaries of a change. This is particularly acute in systems with concurrent access such as Web
+applications.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Anemic Domain Model</title>
+      <link>http://seedstack.org/guides/ddd-for-beginners/anemic-domain-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/ddd-for-beginners/anemic-domain-model/</guid>
+      <description>&lt;p&gt;An Anemic Domain Model is something that can be found a lot of projects and, astonishingly, is often viewed as a good
+practice. But as you may already have deduced from its name, it doesn&amp;rsquo;t sound like something desirable and certainly not
+in DDD-oriented software.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Behavior and services</title>
+      <link>http://seedstack.org/guides/ddd-for-beginners/behavior-and-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/ddd-for-beginners/behavior-and-services/</guid>
+      <description>&lt;p&gt;Sometimes behavior doesn&amp;rsquo;t fit into Entities or Value Objects. Pure operations may exist in the domain and should therefore
+be modeled as such. Domain-Driven-Design propose the Service pattern to model these operations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Entities and Value Objects</title>
+      <link>http://seedstack.org/guides/ddd-for-beginners/entities-and-value-objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/ddd-for-beginners/entities-and-value-objects/</guid>
+      <description>&lt;p&gt;Modeling business concepts with objects may seem very intuitive at first sight but there are a lot of difficulties
+awaiting us in the details. To clarify the meaning of model elements and propose a set of design practices, Domain-Driven
+Design defines three patterns that express the model: Entities, Value Objects and Services. This chapter will focus
+on Entities and Value Objects, leaving Services for their &lt;a href=&#34;http://seedstack.org/guides/ddd-for-beginners/behavior-and-services/&#34;&gt;own chapter&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Using development snapshots</title>
+      <link>http://seedstack.org/guides/using-snapshots/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/using-snapshots/</guid>
+      <description>&lt;p&gt;Sometimes there is a need to use a development version of a SeedStack component in your project, &lt;strong&gt;for testing purposes&lt;/strong&gt;.
+This guide will help you configure Maven to access SeedStack SNAPSHOT dependencies.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HTTPS with Undertow</title>
+      <link>http://seedstack.org/guides/https-with-undertow/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/https-with-undertow/</guid>
+      <description>&lt;p&gt;This guide will help you generate a certificate and configure Undertow to use it for HTTPS.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Generating a SeedStack project</title>
+      <link>http://seedstack.org/guides/generating-a-project/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/generating-a-project/</guid>
+      <description>&lt;p&gt;Starting a project from scratch with Maven is not difficult but SeedStack makes it simpler with its generator. This
+guide goes through the generation process, step-by-step.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JPA, step-by-step</title>
+      <link>http://seedstack.org/guides/jpa/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/jpa/</guid>
+      <description>&lt;p&gt;This guide details step-by-step how to configure JPA in SeedStack, to access an existing relational database.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SeedStack on WebSphere</title>
+      <link>http://seedstack.org/guides/seedstack-on-was/</link>
+      <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/seedstack-on-was/</guid>
+      <description>&lt;p&gt;IBM WebSphere Application Server (WAS) is a complex Web application server that can pose some challenges to
+developers. The goal of this guide is to aggregate useful information about deploying SeedStack application on WAS
+successfully.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JAX-RS basics</title>
+      <link>http://seedstack.org/guides/jaxrs-basics/</link>
+      <pubDate>Thu, 09 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/jaxrs-basics/</guid>
+      <description>&lt;p&gt;JAX-RS is a specification providing a standard way to write REST resources in Java. SeedStack implements the JAX-RS
+standard through the &lt;a href=&#34;https://jersey.java.net/&#34;&gt;Jersey 2&lt;/a&gt; implementation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RESTful API design</title>
+      <link>http://seedstack.org/guides/restful-api-design/</link>
+      <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/restful-api-design/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm&#34;&gt;Representational State Transfer&lt;/a&gt; (REST) architectural style was defined in 2000 by Roy Fielding. This architectural
+style defines a set of constraints based on the Web architecture.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Conversion to WAR</title>
+      <link>http://seedstack.org/guides/conversion-to-war/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/conversion-to-war/</guid>
+      <description>&lt;p&gt;SeedStack projects created by the &lt;a href=&#34;http://seedstack.org/docs/maven-plugin/generate/&#34;&gt;generate goal&lt;/a&gt; of the SeedStack Maven plugin are
+designed to be run from command-line with an embedded Web server. You can convert this kind of project to a classic WAR.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Creating an add-on</title>
+      <link>http://seedstack.org/guides/creating-addon/</link>
+      <pubDate>Wed, 31 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/creating-addon/</guid>
+      <description>&lt;p&gt;SeedStack is an extensible solution that can be enriched with add-ons to provide new functionality or features.
+Writing an add-on is not a difficult task as it is very similar to writing an application but some rules and
+conventions must be obeyed. This guide will describe these rules and conventions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>http://seedstack.org/guides/ddd-for-beginners/</link>
+      <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/ddd-for-beginners/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

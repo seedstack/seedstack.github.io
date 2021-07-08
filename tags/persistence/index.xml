@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Persistence on </title>
+    <link>http://seedstack.org/tags/persistence/</link>
+    <description>Recent content in Persistence on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 11 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://seedstack.org/tags/persistence/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JPA with the business framework</title>
+      <link>http://seedstack.org/addons/jpa/business/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/jpa/business/</guid>
+      <description>While you can do plain JPA by injecting EntityManager anywhere, it is better to define an architectural layer where you encapsulate persistence-related operations. In the business framework, persistence is confined to Repositories.
+JPA repository Default JPA repository The JPA add-on will provide a default JPA repository implementation for every aggregate that does not have a custom one. Two cases may occur:
+ You don&amp;rsquo;t have any custom repository interface an particular aggregate.</description>
+    </item>
+    
+    <item>
+      <title>Morphia</title>
+      <link>http://seedstack.org/addons/mongodb/morphia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/mongodb/morphia/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/mongodb/morphia&#34;&gt;Morphia&lt;/a&gt; is an Object/Document mapper. It provides annotation-based POJO mapping,
+and fluent query/update APIs. SeedStack MongoDb add-on provides a module for Morphia.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JPA, step-by-step</title>
+      <link>http://seedstack.org/guides/jpa/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/jpa/</guid>
+      <description>&lt;p&gt;This guide details step-by-step how to configure JPA in SeedStack, to access an existing relational database.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ElasticSearch</title>
+      <link>http://seedstack.org/addons/elasticsearch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/elasticsearch/</guid>
+      <description>&lt;p&gt;The ElasticSearch add-on allows you to configure, inject and use &lt;a href=&#34;https://www.elastic.co&#34;&gt;ElasticSearch&lt;/a&gt; clients.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Flyway</title>
+      <link>http://seedstack.org/addons/flyway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/flyway/</guid>
+      <description>SeedStack Flyway add-on provides support for automatic database migration through Flyway.
+  For more information about Flyway: https://flywaydb.org/documentation/
+   Dependency Maven Gradle   &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.seedstack.addons.flyway&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;flyway&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;2.0.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  Specifying versions manually is error-prone, use dependency management instead. Show version   dependencies { compile(&amp;quot;org.seedstack.addons.flyway:flyway:2.0.0&amp;quot;) }    Configuration To enable database migration, a properly configured datasource is required:
+jdbc: datasources: someDatasource: url: jdbc:hsqldb:mem:somedb  With only this configuration, the Flyway add-on will lookup for SQL migration scripts in the db/migration/&amp;lt;dsName&amp;gt; classpath location and if it finds any, will apply the necessary scripts to upgrade the database to the latest version.</description>
+    </item>
+    
+    <item>
+      <title>JDBC</title>
+      <link>http://seedstack.org/addons/jdbc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/jdbc/</guid>
+      <description>&lt;p&gt;SeedStack JDBC add-on provides support for connection to any relational database through the JDBC API.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JPA Configuration</title>
+      <link>http://seedstack.org/addons/jpa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/jpa/</guid>
+      <description>&lt;p&gt;SeedStack JPA add-on supports any JPA-compliant &lt;a href=&#34;https://en.wikipedia.org/wiki/Object-relational_mapping&#34;&gt;ORM&lt;/a&gt; to allow
+your application to interface with relational databases.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>http://seedstack.org/addons/mongodb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/mongodb/</guid>
+      <description>&lt;p&gt;SeedStack MongoDB add-on provides integration of MongoDB Java clients your application to connect with MongoDB instances.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Neo4J</title>
+      <link>http://seedstack.org/addons/neo4j/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/neo4j/</guid>
+      <description>Coming soon&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Persistence</title>
+      <link>http://seedstack.org/docs/basics/persistence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/persistence/</guid>
+      <description>Now that we have a domain model, we would like to use some persistence with it. In Domain-Driven Design, persistence is done with Repositories which work on whole aggregates.
+We need some data first! To be able to test this, we need some sample data. A class implementing LifecycleListener will provide the opportunity to insert data at application startup.
+In the package infrastructure, create a SampleDataGenerator class:
+package org.generated.project.infrastructure; import javax.</description>
+    </item>
+    
+    <item>
+      <title>Redis</title>
+      <link>http://seedstack.org/addons/redis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/redis/</guid>
+      <description>Coming soon&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Repositories</title>
+      <link>http://seedstack.org/docs/business/repositories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/repositories/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;callout callout-def&#34;&gt;
+    &lt;div style=&#34;display:table; width: 100%&#34;&gt;
+        &lt;div style=&#34;display:table-cell; width: 50px; vertical-align: middle;&#34;&gt;
+            
+            
+            
+            
+            
+            
+                &lt;i class=&#34;fa fa-quote-left icon-2x&#34;&gt;&lt;/i&gt;
+            
+        &lt;/div&gt;
+        &lt;div style=&#34;display:table-cell; vertical-align: middle;&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;A repository is responsible for consistently storing and retrieving a whole aggregate.&lt;br&gt;
+It has a simple collection-like global interface and optionally domain-specific methods.&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Solr</title>
+      <link>http://seedstack.org/addons/solr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/solr/</guid>
+      <description>Coming soon&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>
