@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Glossaries on </title>
+    <link>http://seedstack.org/glossary/</link>
+    <description>Recent content in Glossaries on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/glossary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Definitions</title>
+      <link>http://seedstack.org/glossary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/glossary/</guid>
+      <description>Anemic domain model An anti-pattern where the domain objects have hardly any behavior. Frequently they are just data holders with getter/setter access and the logic completely lives in services on top of the domain objects. This is contrary to the essence of object-oriented design which is to combine data and behavior together.
+This anti-pattern is really a procedural design in disguise. It has the cost of a good domain model but none of the benefits.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cli on </title>
+    <link>http://seedstack.org/tags/cli/</link>
+    <description>Recent content in Cli on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Defining commands</title>
+      <link>http://seedstack.org/docs/cli/commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/cli/commands/</guid>
+      <description>To define a CLI command, simply declare a class implementing the CommandLineHandler interface and annotated with @CliCommand:
+@CliCommand(&amp;quot;myCommand&amp;quot;) public class MyCommandLineHandler implements CommandLineHandler { @Override public Integer call() throws Exception { return 0; } }  This will register the command named myCommand without any option or argument. When this command is invoked from the command-line, the call method is invoked. You must return an integer code from this method which will be returned to the operating system.</description>
+    </item>
+    
+    <item>
+      <title>Running CLI applications</title>
+      <link>http://seedstack.org/docs/cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/cli/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;seed-cli&lt;/code&gt; module provides support for creating applications that are run from the command-line, accepting options
+and arguments. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Running applications</title>
+      <link>http://seedstack.org/docs/core/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/</guid>
+      <description>Running a SeedStack application is done by using the SeedMain class as entry point. This main class searches for a launcher on the classpath and delegates the startup and shutdown logic to it. A launcher is a class implementing SeedLauncher.
+SeedStack provides two built-in launchers:
+ In the seed-cli module, for command-line applications. In the seed-web-undertow, for Web applications embedding their own server.    Web applications executed in a Servlet container don&amp;rsquo;t require a launcher as they are completely managed by the container.</description>
+    </item>
+    
+    <item>
+      <title>Shell</title>
+      <link>http://seedstack.org/addons/shell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/shell/</guid>
+      <description>&lt;p&gt;SeedStack shell add-on provides access to application administrative commands through SSH protocol.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

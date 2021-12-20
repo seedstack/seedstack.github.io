@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communication on </title>
+    <link>http://seedstack.org/tags/communication/</link>
+    <description>Recent content in Communication on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JMS</title>
+      <link>http://seedstack.org/addons/jms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/jms/</guid>
+      <description>&lt;p&gt;Java Message Service (JMS) is a Java API that allows applications to create, send, receive, and read messages.
+SeedStack JMS add-on provides a JMS 1.1 integration (JSR 914).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kafka</title>
+      <link>http://seedstack.org/addons/kafka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/kafka/</guid>
+      <description>Apache Kafka is a scalable distributed streaming platform. It&amp;rsquo;s best suited for handling real-time data streams. The Kafka add-on provides an integration of both streams and pub/sub clients, using the Kafka API.
+Dependencies To add the Kafka add-on to your project, add the following dependency:
+Maven Gradle   &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.seedstack.addons.kafka&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;kafka&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;2.0.2&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  Specifying versions manually is error-prone, use dependency management instead. Show version   dependencies { compile(&amp;quot;org.</description>
+    </item>
+    
+    <item>
+      <title>MQTT</title>
+      <link>http://seedstack.org/addons/mqtt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/mqtt/</guid>
+      <description>&lt;p&gt;MQTT is a light-weight publish-subscribe messaging protocol particularly suited for IoT communication. This add-on provides
+an integration of the MQTT protocol in SeedStack. It uses the Eclipse PAHO implementation to automatically manage brokers,
+connections and message consumers/publishers. Automatic connection recovery is done after an MQTT connection failure.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Web-Services</title>
+      <link>http://seedstack.org/addons/web-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/web-services/</guid>
+      <description>&lt;p&gt;SeedStack Web-Services add-on provides JAX-WS integration through the Metro reference implementation.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

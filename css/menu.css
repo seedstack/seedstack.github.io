@@ -1,0 +1,123 @@
+.side-menu {
+    z-index: 2;
+    margin: 0 0;
+}
+
+.side-menu * {
+    line-height: 20px;
+}
+
+.side-menu .list-group-item {
+    border: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: 'Open Sans', 'Helvetica', sans-serif;
+}
+
+.side-menu .list-group-item ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.side-menu .list-group-item ul li {
+    list-style-type: none;
+}
+
+.side-menu .list-group-item ul li > a {
+    list-style-type: none;
+    color: #333;
+}
+
+.side-menu .list-group-item ul li > a.active {
+    font-weight: bold;
+    color: #3498db;
+}
+
+.side-menu .list-group-item ul li > h6 {
+    color: #888;
+    border-bottom: 1px solid #ccc;
+    margin: 14px 0 5px 0;
+}
+
+.side-menu .list-group-header {
+    margin-top: 20px;
+    background-color: #3498db;
+    font-size: 18px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: white;
+}
+
+.side-menu .list-group-header a.active {
+    font-weight: bold;
+}
+
+.nav>li.list-group-header>a:focus, .nav>li.list-group-header>a:hover {
+    background-color: #3498db;
+}
+
+.side-menu .list-group-header:first-of-type {
+    margin-top: 0;
+}
+
+.nav > li.list-group-header > a {
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 20px;
+    color: white;
+}
+
+.side-menu ul#tags {
+    list-style-type: none;
+}
+
+.side-menu ul#tags li {
+    display: inline;
+}
+
+.side-menu ul#tags li + li:before {
+    content: "\0000b7  ";
+}
+
+.toc {
+    position: absolute;
+    left: calc(((100vw - 1170px) / 2) + 1170px + 5px);
+    top: 334px;
+    min-width: 235px;
+    max-width: 235px;
+    border-left: 1px solid #ccc;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.toc.affix {
+    position: fixed;
+    top: 20px;
+}
+
+.toc * {
+    line-height: 20px;
+}
+
+.toc p.title {
+    font-weight: bold;
+}
+
+.toc ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.toc ul li a {
+    color: #333;
+}
+
+.toc nav > ul > li > ul > li > ul {
+    display: none;
+}
+
+@media (max-width: 1679px) {
+    #toc {
+        display: none;
+    }
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interfaces on </title>
+    <link>http://seedstack.org/tags/interfaces/</link>
+    <description>Recent content in Interfaces on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/tags/interfaces/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Assemblers</title>
+      <link>http://seedstack.org/docs/business/assemblers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/assemblers/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;callout callout-def&#34;&gt;
+    &lt;div style=&#34;display:table; width: 100%&#34;&gt;
+        &lt;div style=&#34;display:table-cell; width: 50px; vertical-align: middle;&#34;&gt;
+            
+            
+            
+            
+            
+            
+                &lt;i class=&#34;fa fa-quote-left icon-2x&#34;&gt;&lt;/i&gt;
+            
+        &lt;/div&gt;
+        &lt;div style=&#34;display:table-cell; vertical-align: middle;&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;An assembler is an interface object responsible for mapping one or more aggregate(s) to a Data Transfer Object (DTO)
+and back.&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CORS</title>
+      <link>http://seedstack.org/docs/web/cors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/cors/</guid>
+      <description>Cross-Origin Resource Sharing (CORS) is supported through a Java filter and can be enabled in any SeedStack application.
+  Seed integrates the CORS filter from dzhuvinov software. There is no need to install and configure the filter manually, it is automatically registered by Seed. All filter options can be specified through configuration properties.
+   Configuration CORS can be enabled and configuration as below:
+Configuration Tool    web: cors: # The servlet path mapping on which CORS will be active path: (String) # If true, Cross-Origin-Resource-Sharing (CORS) will be enabled enabled: (boolean) # Allows to specify custom properties to the CORS filter (see below) properties: key: (String)   To dump the web.</description>
+    </item>
+    
+    <item>
+      <title>Fluent assembler</title>
+      <link>http://seedstack.org/docs/business/fluent-assembler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/fluent-assembler/</guid>
+      <description>&lt;p&gt;As described in the &lt;a href=&#34;http://seedstack.org/docs/business/assemblers/&#34;&gt;assemblers page&lt;/a&gt;, you can inject assemblers and use them
+directly. However, the business framework provides a Domain-Specific Language (DSL) to do common Aggregate/DTO mapping
+operations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>REST</title>
+      <link>http://seedstack.org/docs/web/rest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/rest/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;seed-rest-core&lt;/code&gt; and its companion modules provides support for exposing REST resources using JAX-RS. SeedStack implements
+the JAX-RS standard through the &lt;a href=&#34;https://jersey.github.io/&#34;&gt;Jersey 2&lt;/a&gt; implementation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Running Web applications</title>
+      <link>http://seedstack.org/docs/web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;seed-web-core&lt;/code&gt; and its companion modules provide support for Web technologies, such as Servlets, WebSockets, embedded
+Web servers, serving static resources, etc&amp;hellip; &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Servlet, filters and listeners</title>
+      <link>http://seedstack.org/docs/web/servlets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/servlets/</guid>
+      <description>Servlets, filters and listeners can be detected and registered by SeedStack which makes them injectable and interceptable.
+Servlets You can register a servlet by annotating your servlet class with @WebServlet:
+@WebServlet(&amp;quot;/my-servlet&amp;quot;) public class MyServlet extends HttpServlet { ... }    You can specify a priority on each listener to order them in the context initialization and destruction sequences: add a @Priority annotation to the listener class with the absolute priority as value.</description>
+    </item>
+    
+    <item>
+      <title>Static resources</title>
+      <link>http://seedstack.org/docs/web/static-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/static-resources/</guid>
+      <description>SeedStack provides static resource serving from the classpath and the document root with some benefits over the container default resource serving:
+ Automatic serving of pre-minified and/or pre-gzipped versions of resources, On-the-fly gzipping of resources, Cache friendly.  Behavior The behavior is to serve resources located under the document root folder and, if not found, under the META-INF/resources classpath location on the /* path. For example, consider the following folder tree:</description>
+    </item>
+    
+    <item>
+      <title>W20 bridge</title>
+      <link>http://seedstack.org/addons/w20-bridge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/w20-bridge/</guid>
+      <description>&lt;p&gt;The SeedStack W20 bridge acts as an integration bridge between the Seed Java framework and the W20 Web framework.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Web bridge</title>
+      <link>http://seedstack.org/addons/web-bridge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/web-bridge/</guid>
+      <description>&lt;p&gt;The SeedStack Web bridge is an API that enables to quickly integrate your Web frontend to your SeedStack backend.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Web-Services</title>
+      <link>http://seedstack.org/addons/web-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/web-services/</guid>
+      <description>&lt;p&gt;SeedStack Web-Services add-on provides JAX-WS integration through the Metro reference implementation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WebSockets</title>
+      <link>http://seedstack.org/docs/web/websockets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/websockets/</guid>
+      <description>Seed also integrates the Java API for WebSocket (JSR 356), allowing server and client endpoints to be injected. WebSocket support requires Java 7 and a compatible server to work.
+Server endpoints Server endpoints have to explicitly specify a SeedBaseEndpointConfigurator to be managed by Seed.
+@ServerEndpoint(value = &amp;quot;/chat&amp;quot;, configurator = BaseServerEndpointConfigurator.class) public class ChatEndpoint { @Logging private Logger logger; @Inject EchoService echoService; @OnOpen public void onOpen(Session session) { logger.info(&amp;quot;Connected ... &amp;quot; + session.</description>
+    </item>
+    
+  </channel>
+</rss>

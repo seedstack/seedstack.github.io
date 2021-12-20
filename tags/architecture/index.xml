@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architecture on </title>
+    <link>http://seedstack.org/tags/architecture/</link>
+    <description>Recent content in Architecture on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 31 Aug 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://seedstack.org/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating an add-on</title>
+      <link>http://seedstack.org/guides/creating-addon/</link>
+      <pubDate>Wed, 31 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/creating-addon/</guid>
+      <description>&lt;p&gt;SeedStack is an extensible solution that can be enriched with add-ons to provide new functionality or features.
+Writing an add-on is not a difficult task as it is very similar to writing an application but some rules and
+conventions must be obeyed. This guide will describe these rules and conventions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Layers</title>
+      <link>http://seedstack.org/docs/business/layers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/layers/</guid>
+      <description>Domain-Driven Design itself can be successfully applied in variety of software architectural styles. Some are very broad and tend to define every aspect of the system, others are more focused and try to address a specific demand.
+The business framework itself can adapt to several architectural styles. This documentation will focus on the traditional layered architecture from the Eric Evans DDD book, improved by the usage of the Dependency Inversion Principle.</description>
+    </item>
+    
+    <item>
+      <title>Package layout</title>
+      <link>http://seedstack.org/docs/business/package-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/package-layout/</guid>
+      <description>We recommend a well-defined package layout for organizing your business code according to the software architecture described above.
+The domain The root package for the domain layer is:
+[base.package].domain  The domain can be composed of several sub-domains that can be specified as sub-packages:
+[base.package].domain.subdomain1 [base.package].domain.subdomain2 ...  The domain package (or each sub-domain package if relevant) contains:
+ A model package containing aggregates, each in its own package. An aggregate package contains  The aggregate root along with other related entities and value objects, The factory interface if any, The repository interface if any, The aggregate policies if any.</description>
+    </item>
+    
+  </channel>
+</rss>

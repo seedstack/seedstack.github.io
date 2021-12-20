@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Validation on </title>
+    <link>http://seedstack.org/tags/validation/</link>
+    <description>Recent content in Validation on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/tags/validation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Validation</title>
+      <link>http://seedstack.org/docs/core/validation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/validation/</guid>
+      <description>&lt;p&gt;SeedStack provides built-in support for Bean Validation 1.1 (JSR 303 &amp;amp; JSR 349) in the core module. This is a part of
+the core, including the Hibernate Validator implementation which is automatically provided. &lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

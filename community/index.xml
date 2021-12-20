@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communities on </title>
+    <link>http://seedstack.org/community/</link>
+    <description>Recent content in Communities on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>http://seedstack.org/community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/community/</guid>
+      <description>&lt;p&gt;Contact SeedStack members, file issues or ask for help.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Contributors</title>
+      <link>http://seedstack.org/community/contributors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/community/contributors/</guid>
+      <description>&lt;p&gt;All contributors to SeedStack, past and present, are listed below. Thanks to all of them for their time and effort !&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Members</title>
+      <link>http://seedstack.org/community/members/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/community/members/</guid>
+      <description>&lt;p&gt;This page lists the SeedStack team members.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Users</title>
+      <link>http://seedstack.org/community/users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/community/users/</guid>
+      <description>&lt;p&gt;This page lists the known users of SeedStack.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

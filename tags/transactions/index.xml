@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transactions on </title>
+    <link>http://seedstack.org/tags/transactions/</link>
+    <description>Recent content in Transactions on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/tags/transactions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JDBC</title>
+      <link>http://seedstack.org/addons/jdbc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/jdbc/</guid>
+      <description>&lt;p&gt;SeedStack JDBC add-on provides support for connection to any relational database through the JDBC API.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JMS</title>
+      <link>http://seedstack.org/addons/jms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/jms/</guid>
+      <description>&lt;p&gt;Java Message Service (JMS) is a Java API that allows applications to create, send, receive, and read messages.
+SeedStack JMS add-on provides a JMS 1.1 integration (JSR 914).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JPA Configuration</title>
+      <link>http://seedstack.org/addons/jpa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/jpa/</guid>
+      <description>&lt;p&gt;SeedStack JPA add-on supports any JPA-compliant &lt;a href=&#34;https://en.wikipedia.org/wiki/Object-relational_mapping&#34;&gt;ORM&lt;/a&gt; to allow
+your application to interface with relational databases.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JPA with the business framework</title>
+      <link>http://seedstack.org/addons/jpa/business/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/jpa/business/</guid>
+      <description>While you can do plain JPA by injecting EntityManager anywhere, it is better to define an architectural layer where you encapsulate persistence-related operations. In the business framework, persistence is confined to Repositories.
+JPA repository Default JPA repository The JPA add-on will provide a default JPA repository implementation for every aggregate that does not have a custom one. Two cases may occur:
+ You don&amp;rsquo;t have any custom repository interface an particular aggregate.</description>
+    </item>
+    
+    <item>
+      <title>Redis</title>
+      <link>http://seedstack.org/addons/redis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/redis/</guid>
+      <description>Coming soon&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Solr</title>
+      <link>http://seedstack.org/addons/solr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/solr/</guid>
+      <description>Coming soon&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Transactions</title>
+      <link>http://seedstack.org/addons/spring-bridge/transactions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/spring-bridge/transactions/</guid>
+      <description>&lt;p&gt;The SeedStack/Spring bridge add-on allows to trigger transactions across framework boundaries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Transactions</title>
+      <link>http://seedstack.org/docs/core/transactions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/transactions/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
