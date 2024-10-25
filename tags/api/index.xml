@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Api on </title>
+    <link>http://seedstack.org/tags/api/</link>
+    <description>Recent content in Api on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 09 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://seedstack.org/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Eureka</title>
+      <link>http://seedstack.org/addons/netflix/eureka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/netflix/eureka/</guid>
+      <description>&lt;p&gt;This component is used to discover services for the purpose of load balancing and failover of middle-tier servers.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hystrix</title>
+      <link>http://seedstack.org/addons/netflix/hystrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/netflix/hystrix/</guid>
+      <description>&lt;p&gt;This component allows you to wrap your network calls with the Hystrix library. Hystrix is a library that add latency tolerance
+and fault tolerance logic, as well as metrics.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>REST</title>
+      <link>http://seedstack.org/addons/crud/rest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/crud/rest/</guid>
+      <description>&lt;p&gt;This module can expose REST APIs for doing CRUD operations on aggregates, through their DTO.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JAX-RS basics</title>
+      <link>http://seedstack.org/guides/jaxrs-basics/</link>
+      <pubDate>Thu, 09 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/jaxrs-basics/</guid>
+      <description>&lt;p&gt;JAX-RS is a specification providing a standard way to write REST resources in Java. SeedStack implements the JAX-RS
+standard through the &lt;a href=&#34;https://jersey.java.net/&#34;&gt;Jersey 2&lt;/a&gt; implementation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RESTful API design</title>
+      <link>http://seedstack.org/guides/restful-api-design/</link>
+      <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/restful-api-design/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm&#34;&gt;Representational State Transfer&lt;/a&gt; (REST) architectural style was defined in 2000 by Roy Fielding. This architectural
+style defines a set of constraints based on the Web architecture.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Feign</title>
+      <link>http://seedstack.org/addons/feign/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/feign/</guid>
+      <description>&lt;p&gt;This component allows you to define an HTTP client with a simple Java interface that you can then inject and use transparently
+in your code.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>http://seedstack.org/addons/crud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/crud/</guid>
+      <description>&lt;p&gt;The CRUD add-on is a &lt;a href=&#34;http://seedstack.org/docs/business/&#34;&gt;business framework&lt;/a&gt; extension that can expose CRUD operations
+for any Aggregate/DTO couple.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>REST</title>
+      <link>http://seedstack.org/docs/web/rest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/rest/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;seed-rest-core&lt;/code&gt; and its companion modules provides support for exposing REST resources using JAX-RS. SeedStack implements
+the JAX-RS standard through the &lt;a href=&#34;https://jersey.github.io/&#34;&gt;Jersey 2&lt;/a&gt; implementation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>REST API</title>
+      <link>http://seedstack.org/docs/basics/rest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/rest/</guid>
+      <description>We already have a minimal REST API that says Hello World! in our demo application. In this page we will enrich the API with some SeedStack
+A Swagger descriptor Swagger is a popular API description format. It helps in discovering API, whereas by humans or by machines.
+To add a Swagger descriptor to our project, we just need to add the following dependency:
+Maven Gradle   &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.seedstack.addons.swagger&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;swagger&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;2.</description>
+    </item>
+    
+    <item>
+      <title>Swagger</title>
+      <link>http://seedstack.org/addons/swagger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/swagger/</guid>
+      <description>SeedStack Swagger add-on exposes a REST resource describing annotated JAX-RS resources in the Swagger format.
+Dependency To automatically generate and expose a Swagger descriptor for your application, add the following dependency:
+Maven Gradle   &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.seedstack.addons.swagger&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;swagger&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;2.1.3&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  Specifying versions manually is error-prone, use dependency management instead. Show version   dependencies { compile(&amp;quot;org.seedstack.addons.swagger:swagger:2.1.3&amp;quot;) }    Configuration No configuration is needed for basic usage, but the options below can be used to tune the generated Swagger.</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>http://seedstack.org/docs/basics/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/testing/</guid>
+      <description>Testing is a crucial part of application development and should not be overlooked. SeedStack can help you to test your application by providing the necessary tools.
+Unit testing SeedStack doesn&amp;rsquo;t provide specific tools for unit-testing. Just write your unit tests as usual.
+Integration testing SeedStack provides several features to do integration testing. You can do things like altering configuration, defining launch arguments or set system properties. This can be done either for the execution of a full test class, for a specific test only, or both.</description>
+    </item>
+    
+  </channel>
+</rss>

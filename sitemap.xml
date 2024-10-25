@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://seedstack.org/addons/aws/lambda/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/io/advanced-csv-export/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/ddd-for-beginners/aggregate-design/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/ddd-for-beginners/anemic-domain-model/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/monitoring/batch/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/ddd-for-beginners/behavior-and-services/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/io/custom-parsers/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/io/custom-renderers/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/ddd-for-beginners/entities-and-value-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/netflix/eureka/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/netflix/hystrix/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/jpa/business/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/mongodb/morphia/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/crud/rest/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/spring-bridge/batch/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/spring-bridge/transactions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/24.4-release-notes/</loc>
+    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/21.11-release-notes/</loc>
+    <lastmod>2021-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/21.7-release-notes/</loc>
+    <lastmod>2021-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/using-snapshots/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/21.4-release-notes/</loc>
+    <lastmod>2021-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/20.11-release-notes/</loc>
+    <lastmod>2020-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/20.7-release-notes/</loc>
+    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/19.11-release-notes/</loc>
+    <lastmod>2019-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/19.7-release-notes/</loc>
+    <lastmod>2019-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/19.4-release-notes/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/https-with-undertow/</loc>
+    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/18.11-release-notes/</loc>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/generating-a-project/</loc>
+    <lastmod>2018-09-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/jpa/</loc>
+    <lastmod>2018-09-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/18.7-release-notes/</loc>
+    <lastmod>2018-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/seedstack-on-was/</loc>
+    <lastmod>2018-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/18.4-release-notes/</loc>
+    <lastmod>2018-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/whats-new-in-business-4/</loc>
+    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/17.11-release-notes/</loc>
+    <lastmod>2017-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/intellij-plugin-released/</loc>
+    <lastmod>2017-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/17.7-release-notes/</loc>
+    <lastmod>2017-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/ow2-quality-award-2017/</loc>
+    <lastmod>2017-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/17.4-release-notes/</loc>
+    <lastmod>2017-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/jaxrs-basics/</loc>
+    <lastmod>2017-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/restful-api-design/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/conversion-to-war/</loc>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/creating-addon/</loc>
+    <lastmod>2016-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/16.11.2-release-notes/</loc>
+    <lastmod>2016-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/16.7-release-notes/</loc>
+    <lastmod>2016-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/16.4-release-notes/</loc>
+    <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/15.11.2-release-notes/</loc>
+    <lastmod>2016-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/15.11.1-release-notes/</loc>
+    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/15.11-release-notes/</loc>
+    <lastmod>2015-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/ddd-for-beginners/</loc>
+    <lastmod>2015-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/welcome-to-seedstack/</loc>
+    <lastmod>2015-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/</loc>
+    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/samples/addon/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/aggregates/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/api/</loc>
+    <lastmod>2017-02-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/architecture/</loc>
+    <lastmod>2016-08-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/assemblers/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/audit/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/samples/basic/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/bibliography/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/business/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/basics/business/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/web/cors/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/cli/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/cloud/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/communication/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/community/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/configuration/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/core/configuration/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/consul/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/community/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/content-repository/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/community/contributors/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/spring-bridge/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/core/crypto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/data-security/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/cli/commands/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/glossary/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/basics/dependency-injection/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/troubleshooting/diagnostics/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/domain-driven-design/</loc>
+    <lastmod>2015-06-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/domain-events/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/samples/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/maven-plugin/effective-config/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/maven-plugin/effective-test-config/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/elasticsearch/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/maven-plugin/crypt/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/entities/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/essentials/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/troubleshooting/exceptions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/project/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/factories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/feign/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/fluent-assembler/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/flyway/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/samples/full/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/basics/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/glossary/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/guides/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/maven-plugin/watch/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/i18n/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/injection/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/core/testing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/interfaces/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/maven-plugin/package/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/jcr/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/jcache/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/jdbc/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/jmh/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/jms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/core/jndi/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/jpa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/javamail/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/jcr/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/kafka/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/ldap/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/layers/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/basics/learn-the-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/maven-plugin/config/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/logging/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/core/logging/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/mqtt/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/maven/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/community/members/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/metrics/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/micro-service/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/mongodb/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/monitoring/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/neo4j/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/oauth/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/project/older-docs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/aws/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/crud/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/io/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/monitoring/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/netflix/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/package-layout/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/pagination/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/persistence/</loc>
+    <lastmod>2018-09-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/basics/persistence/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/policies/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/posts/</loc>
+    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/maven-plugin/generate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/project/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/core/proxy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/qualified-injection/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/web/rest/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/basics/rest/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/redis/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/release/</loc>
+    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/repositories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/rest/</loc>
+    <lastmod>2017-02-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/project/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/maven-plugin/run/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/cli/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/web/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/core/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/scheduling/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/search/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/security/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/core/security/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/services/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/web/servlets/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/shell/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/maven-plugin/shell/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/solr/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/specifications/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/web/static-resources/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/swagger/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/</loc>
+    <lastmod>2017-02-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/technologies/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/testing/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/basics/testing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/maven-plugin/tool/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/transactions/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/core/transactions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/troubleshooting/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/troubleshooting/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/tutorial/</loc>
+    <lastmod>2018-09-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/maven-plugin/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/community/users/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/validation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/core/validation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/value-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/w20-bridge/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/tags/web/</loc>
+    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/web-bridge/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/web/testing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/web/security/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/addons/web-services/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/web/websockets/</loc>
+  </url>
+  
+  <url>
+    <loc>http://seedstack.org/docs/business/</loc>
+  </url>
+  
+</urlset>

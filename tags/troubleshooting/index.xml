@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Troubleshooting on </title>
+    <link>http://seedstack.org/tags/troubleshooting/</link>
+    <description>Recent content in Troubleshooting on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Diagnostics</title>
+      <link>http://seedstack.org/docs/troubleshooting/diagnostics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/troubleshooting/diagnostics/</guid>
+      <description>Startup/shutdown diagnostic When an exception is thrown on startup or shutdown, the full stacktrace is displayed in the console. But a YAML diagnostic is also produced and written to a temporary directory. The diagnostic file contains information about the SeedStack and can be helpful to do advanced troubleshooting.
+A warning log will tell where the diagnostic file is saved:
+Diagnostic information dumped to file:///tmp/seedstack-diagnostics/seedstack-diagnostic-2019-06-06-14-06-21.111.yaml  Web request diagnostic If enabled, a diagnostic file can be dumped for each Web request ending with an exception.</description>
+    </item>
+    
+    <item>
+      <title>Exceptions</title>
+      <link>http://seedstack.org/docs/troubleshooting/exceptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/troubleshooting/exceptions/</guid>
+      <description>All SeedStack exceptions extend BaseException which is a RuntimeException. This means that you are not required to catch framework exceptions although you can do so if needed.
+All SeedStack exceptions display a detailed information report about the failure. Consider this example:
+org.seedstack.seed.SeedException: [CORE] Unexpected exception Description ----------- Unexpected exception during Seed startup or shutdown. Causes ------ 1. com.google.inject.ProvisionException: Unable to provision, see the following errors: 1) Error injecting org.seedstack.seed.core.ConfigurationIT$Holder using org.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>http://seedstack.org/docs/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/troubleshooting/</guid>
+      <description>For troubleshooting you can have a look at:
+ Diagnostics Exceptions  </description>
+    </item>
+    
+  </channel>
+</rss>

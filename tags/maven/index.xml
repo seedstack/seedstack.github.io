@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maven on </title>
+    <link>http://seedstack.org/tags/maven/</link>
+    <description>Recent content in Maven on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://seedstack.org/tags/maven/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using development snapshots</title>
+      <link>http://seedstack.org/guides/using-snapshots/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/using-snapshots/</guid>
+      <description>&lt;p&gt;Sometimes there is a need to use a development version of a SeedStack component in your project, &lt;strong&gt;for testing purposes&lt;/strong&gt;.
+This guide will help you configure Maven to access SeedStack SNAPSHOT dependencies.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Conversion to WAR</title>
+      <link>http://seedstack.org/guides/conversion-to-war/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/guides/conversion-to-war/</guid>
+      <description>&lt;p&gt;SeedStack projects created by the &lt;a href=&#34;http://seedstack.org/docs/maven-plugin/generate/&#34;&gt;generate goal&lt;/a&gt; of the SeedStack Maven plugin are
+designed to be run from command-line with an embedded Web server. You can convert this kind of project to a classic WAR.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dump effective configuration</title>
+      <link>http://seedstack.org/docs/maven-plugin/effective-config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/effective-config/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;effective-config&lt;/code&gt; goal produces a YAML dump of the configuration as scanned, parsed and aggregated by SeedStack. 
+This will show the global configuration as the application sees it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dump effective test configuration</title>
+      <link>http://seedstack.org/docs/maven-plugin/effective-test-config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/effective-test-config/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;effective-test-config&lt;/code&gt; goal produces a YAML dump of the &lt;strong&gt;test&lt;/strong&gt; configuration as scanned, parsed and aggregated by SeedStack. 
+This will show the global configuration as the application sees it, including the test classpath.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Encrypting secrets</title>
+      <link>http://seedstack.org/docs/maven-plugin/crypt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/crypt/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;crypt&lt;/code&gt; goal encrypts the given argument using the application configured &lt;code&gt;master&lt;/code&gt; key store and the specified alias. 
+This allows to &lt;a href=&#34;http://seedstack.org/docs/seed/manual/crypto#encrypting-configuration-sensitive-values&#34;&gt;encrypt sensitive configuration values&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hot-reloading</title>
+      <link>http://seedstack.org/docs/maven-plugin/watch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/watch/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;watch&lt;/code&gt; goal runs any self-executable SeedStack application in hot-reloading mode.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JAR Packaging</title>
+      <link>http://seedstack.org/docs/maven-plugin/package/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/package/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;package&lt;/code&gt; goal packages any self-executable SeedStack application in a &lt;a href=&#34;http://www.capsule.io/&#34;&gt;Capsule&lt;/a&gt;.
+A Capsule is a way of packaging and running any application with all its dependencies from a unique plain executable JAR.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>List all configuration options</title>
+      <link>http://seedstack.org/docs/maven-plugin/config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/config/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;config&lt;/code&gt; goal dumps all the configuration options available in the project. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Project generation</title>
+      <link>http://seedstack.org/docs/maven-plugin/generate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/generate/</guid>
+      <description>&lt;p&gt;To create a SeedStack project from scratch you can use &lt;code&gt;generate&lt;/code&gt; goal from the SeedStack Maven Plugin.
+This goal is invoked from the command line.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Running</title>
+      <link>http://seedstack.org/docs/maven-plugin/run/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/run/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;run&lt;/code&gt; goal runs any self-executable SeedStack application directly from the command line.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Shell function</title>
+      <link>http://seedstack.org/docs/maven-plugin/shell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/shell/</guid>
+      <description>To simplify the invocation of the SeedStack plugin you can define the following UNIX shell function in your profile:
+function seedstack { if [ -z &amp;quot;$1&amp;quot; ]; then echo &amp;quot;Usage: seedstack GOAL [ARGS]...&amp;quot; return 1 fi GOAL=$1 shift mvn -q -Dargs=&amp;quot;$*&amp;quot; org.seedstack:seedstack-maven-plugin:$GOAL }  This enables you to execute goals which use an args system property with real arguments:
+seedstack config application.basePackages  Which is the equivalent of:
+mvn -q -Dargs=&amp;quot;application.</description>
+    </item>
+    
+    <item>
+      <title>Tool execution</title>
+      <link>http://seedstack.org/docs/maven-plugin/tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usage</title>
+      <link>http://seedstack.org/docs/maven-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/</guid>
+      <description>&lt;p&gt;The SeedStack Maven plugin provides goals to manage SeedStack-based artifacts.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

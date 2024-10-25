@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on </title>
+    <link>http://seedstack.org/tags/security/</link>
+    <description>Recent content in Security on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data security</title>
+      <link>http://seedstack.org/addons/data-security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/data-security/</guid>
+      <description>&lt;p&gt;SeedStack data security add-on provides data obfuscation for any POJO according to the application security policy. The
+goal is to protect the data exposed by an application.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LDAP</title>
+      <link>http://seedstack.org/addons/ldap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/ldap/</guid>
+      <description>&lt;p&gt;SeedStack LDAP addon enables your application to connect to an LDAP directory to identify, authenticate and authorize
+users. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OAuth</title>
+      <link>http://seedstack.org/addons/oauth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/oauth/</guid>
+      <description>Seedstack OAuth add-on provides the ability to authenticate and authorize subjects using OAuth and OpenID Connect.
+Dependencies Maven Gradle   &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.seedstack.addons.oauth&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;oauth&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;3.3.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  Specifying versions manually is error-prone, use dependency management instead. Show version   dependencies { compile(&amp;quot;org.seedstack.addons.oauth:oauth:3.3.0&amp;quot;) }    In a Web context you also need to add the following dependency (otherwise security filters will be ignored):
+Maven Gradle   &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.</description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>http://seedstack.org/docs/core/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/security/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;seed-security-core&lt;/code&gt; module provides application-level security. It takes charge of the following tasks:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>W20 bridge</title>
+      <link>http://seedstack.org/addons/w20-bridge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/w20-bridge/</guid>
+      <description>&lt;p&gt;The SeedStack W20 bridge acts as an integration bridge between the Seed Java framework and the W20 Web framework.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Web bridge</title>
+      <link>http://seedstack.org/addons/web-bridge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/web-bridge/</guid>
+      <description>&lt;p&gt;The SeedStack Web bridge is an API that enables to quickly integrate your Web frontend to your SeedStack backend.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Web security</title>
+      <link>http://seedstack.org/docs/web/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/security/</guid>
+      <description>In a Web application, security can be enforced at the HTTP-level by a servlet filter using URL filtering patterns. This feature requires the following dependency in your project:
+Maven Gradle   &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.seedstack.seed&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;seed-web-security&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;3.15.1&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  Specifying versions manually is error-prone, use dependency management instead. Show version   dependencies { compile(&amp;quot;org.seedstack.seed:seed-web-security:3.15.1&amp;quot;) }    The security servlet filter is automatically added on /* and has the ability to intercept all application URLs.</description>
+    </item>
+    
+  </channel>
+</rss>

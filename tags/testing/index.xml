@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing on </title>
+    <link>http://seedstack.org/tags/testing/</link>
+    <description>Recent content in Testing on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Integration testing</title>
+      <link>http://seedstack.org/docs/core/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/testing/</guid>
+      <description>&lt;p&gt;SeedStack provides several features and tools to do integration testing in your application.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Web integration testing</title>
+      <link>http://seedstack.org/docs/web/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/testing/</guid>
+      <description>&lt;p&gt;SeedStack provides support to do integration testing of Web applications.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

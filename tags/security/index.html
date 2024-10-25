@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    
+
+
+<title>
+    Security
+</title>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,700,300,400" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://seedstack.org/assets/unify/css/style.css">
+<link rel="stylesheet" href="http://seedstack.org/assets/unify/plugins/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="http://seedstack.org/css/style.css">
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "http://seedstack.org",
+  "logo": "http://seedstack.org/img/logos/seedstack.png"
+}
+</script>
+
+
+
+<meta property="og:title" content='Security' />
+<meta property="og:description" content="Take advantage of Domain-Driven Design to build great Java micro-services and applications." />
+<meta property="og:url" content="http://seedstack.org/tags/security/" />
+<meta property="og:site_name" content="SeedStack" />
+<meta property="og:image" content="http://seedstack.org/img/opengraph.png" />
+
+
+
+<link rel="search" type="application/opensearchdescription+xml" href="http://seedstack.org/opensearch.xml" title="SeedStack" />
+
+
+
+<link rel="apple-touch-icon" sizes="57x57" href="http://seedstack.org/img/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="http://seedstack.org/img/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://seedstack.org/img/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="http://seedstack.org/img/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://seedstack.org/img/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="http://seedstack.org/img/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="http://seedstack.org/img/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="http://seedstack.org/img/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://seedstack.org/img/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="http://seedstack.org/img/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://seedstack.org/img/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="http://seedstack.org/img/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="http://seedstack.org/img/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="http://seedstack.org/img/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="http://seedstack.org/img/favicons/manifest.json">
+<meta name="apple-mobile-web-app-title" content="SeedStack">
+<meta name="application-name" content="SeedStack">
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<script type="text/javascript">
+    window.seedstack = {
+        baseUrl: "http:\/\/seedstack.org\/",
+        state: {}
+    };
+</script>
+
+
+</head>
+<body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5R5FP9"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5R5FP9');</script>
+
+
+<div id="header">
+    
+    
+
+<div class="header">
+    <div class="container">
+        <a class="logo" href="http://seedstack.org/">SeedStack</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="fa fa-bars"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse navbar-responsive-collapse" data-role="navigation" style="pointer-events: none;">
+        <div class="container">
+            <ul class="nav navbar-nav" style="pointer-events: auto;">
+                <li class=''>
+                    <a href="http://seedstack.org/docs">Documentation</a>
+                </li>
+                <li class=''>
+                    <a href="http://seedstack.org/guides">Guides</a>
+                </li>
+                <li class=''>
+                    <a href="http://seedstack.org/addons">Add-ons</a>
+                </li>
+                <li class=''>
+                    <a href="http://seedstack.org/posts">News</a>
+                </li>
+                <li class=''>
+                    <a href="http://seedstack.org/community">Community</a>
+                </li>
+                <li class='dropdown '>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                        More
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://seedstack.org/glossary">Glossary</a></li>
+                        <li><a href="http://seedstack.org/tags">Tags</a></li>
+                        <li><a href="http://seedstack.org/project">Project info</a></li>
+                        <li><a target="_blank" href="http://seedstack.org/javadoc"><i style="margin-top: 3px" class="pull-right fa fa-external-link"></i> Javadoc</a></li>
+                        <li><a target="_blank" href="https://github.com/seedstack/distribution/releases"><i style="margin-top: 3px" class="pull-right fa fa-external-link"></i> Releases</a></li>
+                        <li><a target="_blank" href="https://github.com/seedstack"><i style="margin-top: 3px" class="pull-right fa fa-external-link"></i> GitHub</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <i class="search fa fa-search search-btn"></i>
+                    <div class="search-open">
+                        <form method="GET" action="http://seedstack.org/search">
+                            <div class="input-group animated fadeInDown">
+                                <input id="search-field" type="text" class="form-control" placeholder="Search" name="q">
+                                <span class="input-group-btn">
+                                    <button class="btn-u" type="submit">Go</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    <div class="title-header small">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-sm-12">
+                <h1>Tags</h1>
+                <p class="hidden-xs">Find content by tagged keywords.</p>
+            </div>
+            <div class="col-md-3 hidden-sm hidden-xs">
+                <div class="header-image-wrapper">
+                    <img class="header-image" src="http://seedstack.org/img/logos/tags-logo.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="title-subheader">
+    <div class="container">
+        <ul>
+        </ul>
+    </div>
+</div>
+    <div class="title-subheader">
+        <div class="container">
+            <ul>
+                <li><span><i class="fa fa-list"></i> <a href="http://seedstack.org/tags">All tags</a></span></li>
+                <li><span class="active"><i class="fa fa-tag"></i> <a href="">Content tagged with "Security"</a></span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="content" class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <form id="criteria">
+                <div class="form-group">
+                    <input class="form-control" id="filter" placeholder="Filter...">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            
+                <div class="content-wrapper filterable-item"  style="margin-bottom: 20px;">
+                    
+
+
+
+<article class="inner-results">
+    <h3><a href='http://seedstack.org/addons'><img src='/img/logos/addons-logo.svg'></a>
+        
+            
+            <a href='http://seedstack.org/addons/data-security'>Data security</a>
+            
+        
+        
+    </h3>
+    <p><p>SeedStack data security add-on provides data obfuscation for any POJO according to the application security policy. The
+goal is to protect the data exposed by an application.
+</p></p>
+    <div class="tags">
+        <a class="label label-default" href="http://seedstack.org/tags/security">Security</a> 
+    </div>
+</article>
+
+                </div>
+            
+                <div class="content-wrapper filterable-item"  style="margin-bottom: 20px;">
+                    
+
+
+
+<article class="inner-results">
+    <h3><a href='http://seedstack.org/addons'><img src='/img/logos/addons-logo.svg'></a>
+        
+            
+            <a href='http://seedstack.org/addons/ldap'>LDAP</a>
+            
+        
+        
+    </h3>
+    <p><p>SeedStack LDAP addon enables your application to connect to an LDAP directory to identify, authenticate and authorize
+users. </p></p>
+    <div class="tags">
+        <a class="label label-default" href="http://seedstack.org/tags/security">Security</a> 
+    </div>
+</article>
+
+                </div>
+            
+                <div class="content-wrapper filterable-item"  style="margin-bottom: 20px;">
+                    
+
+
+
+<article class="inner-results">
+    <h3><a href='http://seedstack.org/addons'><img src='/img/logos/addons-logo.svg'></a>
+        
+            
+            <a href='http://seedstack.org/addons/oauth'>OAuth</a>
+            
+        
+        
+    </h3>
+    <p>Seedstack OAuth add-on provides the ability to authenticate and authorize subjects using OAuth and OpenID Connect.
+Dependencies Maven Gradle   &lt;dependency&gt; &lt;groupId&gt;org.seedstack.addons.oauth&lt;/groupId&gt; &lt;artifactId&gt;oauth&lt;/artifactId&gt;&lt;version&gt;3.3.0&lt;/version&gt; &lt;/dependency&gt;  Specifying versions manually is error-prone, use dependency management instead. Show version   dependencies { compile(&quot;org.seedstack.addons.oauth:oauth:3.3.0&quot;) }    In a Web context you also need to add the following dependency (otherwise security filters will be ignored):
+Maven Gradle   &lt;dependency&gt; &lt;groupId&gt;org.</p>
+    <div class="tags">
+        <a class="label label-default" href="http://seedstack.org/tags/security">Security</a> 
+    </div>
+</article>
+
+                </div>
+            
+                <div class="content-wrapper filterable-item"  style="margin-bottom: 20px;">
+                    
+
+
+
+<article class="inner-results">
+    <h3><a href='http://seedstack.org/docs'><img src='/img/logos/glossary-logo.svg'></a>
+        
+        
+        
+        <a href='http://seedstack.org/docs/core/security/'>Security</a>
+        
+    </h3>
+    <p><p>The <code>seed-security-core</code> module provides application-level security. It takes charge of the following tasks:</p></p>
+    <div class="tags">
+        <a class="label label-default" href="http://seedstack.org/tags/security">Security</a> 
+    </div>
+</article>
+
+                </div>
+            
+                <div class="content-wrapper filterable-item"  style="margin-bottom: 20px;">
+                    
+
+
+
+<article class="inner-results">
+    <h3><a href='http://seedstack.org/addons'><img src='/img/logos/addons-logo.svg'></a>
+        
+            
+            <a href='http://seedstack.org/addons/w20-bridge'>W20 bridge</a>
+            
+        
+        
+    </h3>
+    <p><p>The SeedStack W20 bridge acts as an integration bridge between the Seed Java framework and the W20 Web framework.
+</p></p>
+    <div class="tags">
+        <a class="label label-default" href="http://seedstack.org/tags/interfaces">Interfaces</a> <a class="label label-default" href="http://seedstack.org/tags/security">Security</a> 
+    </div>
+</article>
+
+                </div>
+            
+                <div class="content-wrapper filterable-item"  style="margin-bottom: 20px;">
+                    
+
+
+
+<article class="inner-results">
+    <h3><a href='http://seedstack.org/addons'><img src='/img/logos/addons-logo.svg'></a>
+        
+            
+            <a href='http://seedstack.org/addons/web-bridge'>Web bridge</a>
+            
+        
+        
+    </h3>
+    <p><p>The SeedStack Web bridge is an API that enables to quickly integrate your Web frontend to your SeedStack backend.
+</p></p>
+    <div class="tags">
+        <a class="label label-default" href="http://seedstack.org/tags/interfaces">Interfaces</a> <a class="label label-default" href="http://seedstack.org/tags/security">Security</a> <a class="label label-default" href="http://seedstack.org/tags/web">Web</a> 
+    </div>
+</article>
+
+                </div>
+            
+                <div class="content-wrapper filterable-item"  style="margin-bottom: 20px;">
+                    
+
+
+
+<article class="inner-results">
+    <h3><a href='http://seedstack.org/docs'><img src='/img/logos/glossary-logo.svg'></a>
+        
+        
+        
+        <a href='http://seedstack.org/docs/web/security/'>Web security</a>
+        
+    </h3>
+    <p>In a Web application, security can be enforced at the HTTP-level by a servlet filter using URL filtering patterns. This feature requires the following dependency in your project:
+Maven Gradle   &lt;dependency&gt; &lt;groupId&gt;org.seedstack.seed&lt;/groupId&gt; &lt;artifactId&gt;seed-web-security&lt;/artifactId&gt;&lt;version&gt;3.15.1&lt;/version&gt; &lt;/dependency&gt;  Specifying versions manually is error-prone, use dependency management instead. Show version   dependencies { compile(&quot;org.seedstack.seed:seed-web-security:3.15.1&quot;) }    The security servlet filter is automatically added on /* and has the ability to intercept all application URLs.</p>
+    <div class="tags">
+        <a class="label label-default" href="http://seedstack.org/tags/web">Web</a> <a class="label label-default" href="http://seedstack.org/tags/security">Security</a> 
+    </div>
+</article>
+
+                </div>
+            
+        </div>
+    </div>
+</div>
+<script>
+    var formElt = document.getElementById('criteria'),
+        filterElt = document.getElementById('filter');
+
+    function computeVisibility() {
+        var filterValue = $(filterElt).val();
+
+        $('.filterable-item').each(function (idx, elt) {
+            var $elt = $(elt);
+            var $article = $(elt).find("article");
+            var text = $article.text();
+            if (filterValue && text && text.toLowerCase().indexOf(filterValue.toLowerCase()) === -1) {
+                $elt.hide();
+            } else {
+                $elt.show();
+            }
+        });
+    }
+
+    if (formElt) {
+        formElt.onsubmit = function () {
+            window.location = $('.filterable-item:visible:first h1 a').attr('href');
+            return false;
+        };
+    }
+
+    if (filterElt) {
+        filterElt.onkeyup = function () {
+            computeVisibility();
+        };
+        filterElt.focus();
+        document.addEventListener('seedstack', function () {
+            var query = seedstack.strings.parseQueryString(location);
+            if (query.f && query.f.length >= 1 && query.f[0] !== "") {
+                filterElt.value = query.f;
+            }
+            computeVisibility();
+        });
+    }
+</script>
+
+<div id="footer">
+    <a class="scrollup">Scroll</a>
+<div class="footer-v3">
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 md-margin-bottom-40">
+                    <div class="headline"><h2>About</h2></div>
+                    <p class="margin-bottom-25 md-margin-bottom-40">
+                        SeedStack is an opinionated, easy-to-use Java development stack for building applications and micro-services.
+                    </p>
+                    <p>
+                        <i class="fa fa-file-text"></i> <a target="_blank" href="http://seedstack.org/docs">Docs</a>
+                        <i class="fa fa-info-circle"></i> <a target="_blank" href="http://seedstack.org/javadoc">Javadoc</a>
+                        <i class="fa fa-book"></i> <a target="_blank" href="http://seedstack.org/guides">Guides</a>
+                        <i class="fa fa-plug"></i> <a target="_blank" href="http://seedstack.org/addons">Add-ons</a>
+                        <br/>
+                        <i class="fa fa-keyboard-o"></i> <a style="cursor: pointer;" onclick="seedstack.ui.openHelp();">Keyboard shortcuts</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 md-margin-bottom-40">
+                    <div class="posts">
+                        <div class="headline"><h2>License and credits</h2></div>
+                        <p>
+                            Code licensed under the <a href="https://www.mozilla.org/MPL/2.0" target="_blank">Mozilla Public License 2.0</a>.
+                            <br/>
+                            Documentation licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+                            <br/>
+                            Some illustrations by <a href="https://www.Vecteezy.com/">www.Vecteezy.com</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 map-img">
+                    <div class="headline"><h2>Contact us</h2></div>
+                    <address>
+                        <p>
+                            <i class="fa fa-stack-overflow"></i> <a target="_blank" href="http://stackoverflow.com/questions/ask?tags=seedstack">StackOverflow</a>
+                            <br/>
+                            <i class="fa fa-comments"></i> <a target="_blank" href="https://kiwiirc.com/client/irc.freenode.net#seedstack">IRC</a>
+                            <br/>
+                            <i class="fa fa-github"></i> <a target="_blank" href="https://github.com/seedstack">GitHub</a>
+                            <br/>
+                            <i class="fa fa-link"></i> <a target="_blank" href="https://projects.ow2.org/bin/view/seedstack/">OW2</a>
+                        </p>
+                    </address>
+
+                    <div class="headline"><h2>Stay in touch</h2></div>
+                    <div style="margin-bottom: 20px;">
+                        <a class="twitter-follow-button"
+                           href="https://twitter.com/seedstack"
+                           data-show-count="false"
+                           data-size="large"
+                           data-lang="en">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div id="hotkeys-modal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Keyboard shortcuts</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="keyboard-mappings">
+                            <tbody>
+                            <tr>
+                                <td class="keys">
+                                    <kbd>?</kbd>
+                                </td>
+                                <td>Show this help dialog</td>
+                            </tr>
+                            <tr>
+                                <td class="keys">
+                                    <kbd>/</kbd>
+                                </td>
+                                <td>Focus the search field</td>
+                            </tr>
+                            <tr style="height: 20px;"><td></td></tr>
+                            <tr>
+                                <td class="keys">
+                                    <kbd><i class="fa fa-arrow-left"></i></kbd>
+                                </td>
+                                <td>Go to previous page</td>
+                            </tr>
+                            <tr>
+                                <td class="keys">
+                                    <kbd><i class="fa fa-arrow-right"></i></kbd>
+                                </td>
+                                <td>Go to next page</td>
+                            </tr>
+                            <tr style="height: 20px;"><td></td></tr>
+                            <tr>
+                                <td class="keys">
+                                    <kbd>g</kbd> <kbd>d</kbd>
+                                </td>
+                                <td>Go to documentation</td>
+                            </tr>
+                            <tr>
+                                <td class="keys">
+                                    <kbd>g</kbd> <kbd>a</kbd>
+                                </td>
+                                <td>Go to add-ons library</td>
+                            </tr>
+                            <tr>
+                                <td class="keys">
+                                    <kbd>g</kbd> <kbd>g</kbd>
+                                </td>
+                                <td>Go to guides list</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="versions-modal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 id="versions-title" class="modal-title">Fetching components...</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table id="versions-table" class="table table-striped table-hover table-bordered">
+                            <tr>
+                                <th>Component</th>
+                                <th>Version</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/idea.min.css">
+
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/gradle.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.1.0/highlightjs-line-numbers.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.6.0/clipboard.min.js"></script>
+<script src="/js/jquery.highlight.js"></script>
+<script src="/js/seedstack.js"></script>
+<script>
+    $(document).ready(function () {
+        var $search = $('.search-btn');
+
+        $('.search').click(function () {
+            if ($search.hasClass('fa-search')) {
+                seedstack.ui.openSearch();
+            } else {
+                seedstack.ui.closeSearch();
+            }
+        });
+
+        function hideJavaImports(block) {
+            $(block).filter('.language-java')
+                .find('table > tbody > tr')
+                .each(function (i, javaLine) {
+                    var $javaLine = $(javaLine);
+                    var code = $javaLine.find("td.hljs-ln-code div.hljs-ln-line").text();
+                    if (/^package/.test(code) || /^import/.test(code) || code.trim().length === 0) {
+                        $javaLine.hide();
+                    } else {
+                        return false;
+                    }
+                });
+        }
+
+        $('pre code').each(function (i, block) {
+            hljs.highlightBlock(block);
+
+            if ($(block).not('.no-linenums').length > 0) {
+                hljs.lineNumbersBlock(block);
+                
+                var lastLine = $(block).find('table > tbody > tr:last');
+                if (lastLine.text().trim() === "") {
+                    lastLine.remove();
+                }
+            }
+
+            
+            hideJavaImports(block);
+        });
+
+        
+        $('.doc-content h2, .doc-content h3').each(function () {
+            $(this).append(" <a class='title-anchor' href='#" + this.id + "'>#</a>");
+        });
+
+        Mousetrap.bind('/', function () {
+            seedstack.ui.openSearch();
+            return false;
+        });
+
+        Mousetrap.bind('left', function () {
+            if (seedstack.state.previousPage) {
+                window.location = seedstack.state.previousPage;
+            }
+            return false;
+        });
+
+        Mousetrap.bind('right', function () {
+            if (seedstack.state.nextPage) {
+                window.location = seedstack.state.nextPage;
+            }
+            return false;
+        });
+
+        Mousetrap.bind('?', function () {
+            seedstack.ui.openHelp();
+            return false;
+        });
+
+        Mousetrap.bind('esc', function () {
+            seedstack.ui.closeHelp();
+            seedstack.ui.closeSearch();
+            seedstack.ui.closeVersions();
+            return false;
+        });
+
+        var originalCallback = Mousetrap.stopCallback;
+        Mousetrap.stopCallback = function (e, element, combo) {
+            if (combo === 'esc') {
+                return false;
+            }
+
+            return originalCallback(e, element, combo);
+        };
+
+        function bindShortcuts(value) {
+            $.each(value, function (sequence, item) {
+                if (typeof item === 'string') {
+                    Mousetrap.bind("g " + sequence, function () {
+                        window.location = item;
+                        return false;
+                    });
+                } else if (typeof item === 'object') {
+                    Mousetrap.bind("g " + sequence, function () {
+                        window.location = item.path;
+                        return false;
+                    });
+                    if (item.shortcuts && location.pathname.indexOf(item.path) === 0) {
+                        bindShortcuts(item.shortcuts);
+                    }
+                }
+            });
+        }
+
+        bindShortcuts(seedstack.ui.shortcuts);
+
+        $('.quick-paste span').each(function (index, element) {
+            $(element).attr({"id": "quick-paste-line"});
+            $(element).append("<span data-toggle=\"tooltip\" data-placement=\"top\" data-title=\"Copy\" data-clipboard-target=\"#quick-paste-line\" class=\"copy-button\"><i class=\"fa fa-clipboard\"></i></span>");
+        });
+        var preId = 0;
+        $('.doc-content pre').each(function (index, element) {
+            preId++;
+            $(element).attr({"id": "snippet-" + preId});
+            $(element).prepend("<span data-toggle=\"tooltip\" data-placement=\"left\" data-title=\"Copy\" data-clipboard-target=\"#snippet-" + preId + "\" class=\"copy-button\"><i class=\"fa fa-clipboard\"></i></span>");
+        });
+        var clipboard = new Clipboard('.copy-button', {
+            target: function (trigger) {
+                var elt = $($(trigger).data('clipboard-target'));
+                elt.find('code > table > tbody > tr').show();
+                return elt.get(0);
+            }
+        });
+        clipboard.on('success', function (e) {
+            var elt = $($(e.trigger).data('clipboard-target'));
+            hideJavaImports($(elt).children("code"));
+
+            var tooltip = $("body #" + $(e.trigger).attr("aria-describedby"));
+            tooltip.css('left', '-=14px');
+            tooltip.children(".tooltip-inner").html("Copied!");
+            e.clearSelection();
+        });
+        clipboard.on('error', function (e) {
+            var tooltip = $("body #" + $(e.trigger).attr("aria-describedby"));
+            tooltip.css('left', '-=83px');
+            tooltip.children(".tooltip-inner").html("Error! Copy manually");
+        });
+
+        $('[data-toggle="tooltip"]').tooltip({
+            container: 'body'
+        });
+
+        $('#hotkeys-modal, #versions-modal').bind('hidden.bs.modal', function () {
+            $("html").css("margin-right", "0px");
+        }).bind('show.bs.modal', function () {
+            $("html").css("margin-right", "-15px");
+        });
+
+        var query = seedstack.strings.parseQueryString(location);
+        if (query.h && query.h.length > 0) {
+            $('.doc-content').highlight(query.h);
+            if (query.scroll) {
+                var firstOccurence = $('span[class=highlight]:first');
+                if (firstOccurence.length > 0) {
+                    $('html, body').animate({
+                        scrollTop: firstOccurence.offset().top - 20
+                    }, 250);
+                }
+            }
+        }
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+
+        $('.scrollup').click(function () {
+            $("html, body").animate({scrollTop: 0}, 250);
+            return false;
+        });
+    });
+</script>
+<script>window.twttr = (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0], t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+    t._e = [];
+    t.ready = function (f) {
+        t._e.push(f);
+    };
+    return t;
+}(document, "script", "twitter-wjs"));</script>
+
+</body>
+</html>

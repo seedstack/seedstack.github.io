@@ -1,0 +1,22 @@
+id: mongodb-addon
+name: MongoDB add-on
+owner: adrien.lauer@mpsa.com
+url: https://github.com/seedstack/mongodb-addon
+issues: https://github.com/seedstack/mongodb-addon/issues
+summary: MongoDB official persistence integration for SeedStack.
+icon: icon.png
+license: MPL 2.0
+maintainers:
+  - adrien.lauer@mpsa.com
+  - pierre.thirouin@ext.mpsa.com
+docs:
+  - index.md
+releases:
+  -
+    version: 1.0.0
+    url: https://github.com/seedstack/mongodb-addon/releases/tag/v1.0.0
+    date: 2015-11-17
+  -
+    version: 1.0.1
+    url: https://github.com/seedstack/mongodb-addon/releases/tag/v1.0.1
+    date: 2016-02-09

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>http://seedstack.org/posts/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://seedstack.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>24.4 release notes</title>
+      <link>http://seedstack.org/posts/24.4-release-notes/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/24.4-release-notes/</guid>
+      <description>&lt;p&gt;After a long time without release, we are happy to announce the release of SeedStack 24.4, which now supports Java 21.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>21.11 release notes</title>
+      <link>http://seedstack.org/posts/21.11-release-notes/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/21.11-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 21.11 «Zinnia».&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>21.7 release notes</title>
+      <link>http://seedstack.org/posts/21.7-release-notes/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/21.7-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 21.7 «Yucca».&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>21.4 release notes</title>
+      <link>http://seedstack.org/posts/21.4-release-notes/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/21.4-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 21.4 «Xylobium».&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>20.11 release notes</title>
+      <link>http://seedstack.org/posts/20.11-release-notes/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/20.11-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 20.11 «Willow».&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>20.7 release notes</title>
+      <link>http://seedstack.org/posts/20.7-release-notes/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/20.7-release-notes/</guid>
+      <description>&lt;p&gt;We skipped the 20.4 version because of the world pandemic impact, but here we are, with the release of SeedStack 20.7 «Violet».&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>19.11 release notes</title>
+      <link>http://seedstack.org/posts/19.11-release-notes/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/19.11-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 19.11 «Tulip».&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>19.7 release notes</title>
+      <link>http://seedstack.org/posts/19.7-release-notes/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/19.7-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 19.7 «Sycamore».&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>19.4 release notes</title>
+      <link>http://seedstack.org/posts/19.4-release-notes/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/19.4-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 19.4 «Rose Lily».&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>18.11 release notes</title>
+      <link>http://seedstack.org/posts/18.11-release-notes/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/18.11-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 18.11 «Quince».&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>18.7 release notes</title>
+      <link>http://seedstack.org/posts/18.7-release-notes/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/18.7-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 18.7 «Petunia».&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>18.4 release notes</title>
+      <link>http://seedstack.org/posts/18.4-release-notes/</link>
+      <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/18.4-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 18.4 «Orchid».&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s new in business framework 4.0 ?</title>
+      <link>http://seedstack.org/posts/whats-new-in-business-4/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/whats-new-in-business-4/</guid>
+      <description>&lt;p&gt;Business framework 4.x is vastly improved version. DDD specifications, simpler API, powerful pagination, stream-based
+implementation, &amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>17.11 release notes</title>
+      <link>http://seedstack.org/posts/17.11-release-notes/</link>
+      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/17.11-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 17.11 «Nymphaea». The highlight is a major update to the business framework
+but it also contains two new add-ons, one being to use &lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka&lt;/a&gt; in SeedStack apps.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IntelliJ IDEA plugin released</title>
+      <link>http://seedstack.org/posts/intellij-plugin-released/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/intellij-plugin-released/</guid>
+      <description>&lt;p&gt;A brand new SeedStack plugin for the popular IDE &lt;a href=&#34;https://www.jetbrains.com/idea/&#34;&gt;Intellij IDEA&lt;/a&gt; has been released.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>17.7 release notes</title>
+      <link>http://seedstack.org/posts/17.7-release-notes/</link>
+      <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/17.7-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 17.7 «Magnolia». This version focuses on cloud-related capabilities
+(see AWS Lambda and Consul add-ons below) and much-improved project generation including an optional ready-to-use
+Docker environment for your Web projects. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SeedStack wins the OW2 quality award</title>
+      <link>http://seedstack.org/posts/ow2-quality-award-2017/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/ow2-quality-award-2017/</guid>
+      <description>&lt;p&gt;The SeedStack project received the OW2 quality award during the 2017 edition of &lt;a href=&#34;https://www.ow2con.org&#34;&gt;OW2con&lt;/a&gt;, the
+OW2 annual community event. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>17.4 release notes</title>
+      <link>http://seedstack.org/posts/17.4-release-notes/</link>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/17.4-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 17.4 «Lotus». This is mostly a maintenance release but some new components
+are provided.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>16.11.2 release notes</title>
+      <link>http://seedstack.org/posts/16.11.2-release-notes/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/16.11.2-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 16.11 «Kiwi». This is a major release bringing new exciting changes
+such as a cleaner, much more powerful configuration system.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>16.7 release notes</title>
+      <link>http://seedstack.org/posts/16.7-release-notes/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/16.7-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 16.7 «Jasmine», a maintenance release.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>16.4 release notes</title>
+      <link>http://seedstack.org/posts/16.4-release-notes/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/16.4-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 16.4, the first major release of 2016. Building on the recently introduced
+add-on architecture, this releases brings several new components and features. A lot of improvements have also been done
+under-the-hood to keep SeedStack up-to-date with current technologies and standards.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>15.11.2 release notes</title>
+      <link>http://seedstack.org/posts/15.11.2-release-notes/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/15.11.2-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 15.11.2, the second incremental update of SeedStack 15.11.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>15.11.1 release notes</title>
+      <link>http://seedstack.org/posts/15.11.1-release-notes/</link>
+      <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/15.11.1-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 15.11.1, an incremental update of SeedStack 15.11.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>15.11 release notes</title>
+      <link>http://seedstack.org/posts/15.11-release-notes/</link>
+      <pubDate>Fri, 27 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/15.11-release-notes/</guid>
+      <description>&lt;p&gt;We are happy to announce the release of SeedStack 15.11, codenamed &amp;laquo;Hibiscus&amp;raquo;. This new version comes with a new
+add-on architecture and several new features like business framework improvements, a full-featured cryptography
+module and support for several NoSQL technologies.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Welcome to SeedStack</title>
+      <link>http://seedstack.org/posts/welcome-to-seedstack/</link>
+      <pubDate>Sat, 02 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/posts/welcome-to-seedstack/</guid>
+      <description>&lt;p&gt;Welcome to SeedStack, an Open-Source enterprise-class development stack for building modern and robust applications.
+SeedStack has been derived from a &lt;a href=&#34;http://www.psa-peugeot-citroen.com/&#34;&gt;PSA Peugeot Citroën&lt;/a&gt; internal development
+stack.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

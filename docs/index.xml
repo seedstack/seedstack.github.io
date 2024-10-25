@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on </title>
+    <link>http://seedstack.org/docs/</link>
+    <description>Recent content in Docs on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add-on samples</title>
+      <link>http://seedstack.org/docs/samples/addon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/samples/addon/</guid>
+      <description>Web-Services add-on This sample demonstrates JAX-WS integration:
+ Basic Web-Service, Username token secured Web-Service, Certificate secured Web-Service, Client usage of those Web-Services.    GitHub: https://github.com/seedstack/samples/tree/master/addons/web-services Relevant docs: Web-Services add-on.
+   W20 bridge add-on This sample demonstrates integration of the W20 framework:
+ Usage of W20 JAR packaging, Custom W20 configuration handler, Basic W20 UI.    GitHub: https://github.com/seedstack/samples/tree/master/addons/w20-bridge Relevant docs: W20 bridge add-on.
+   Spring bridge This sample demonstrates the integration of Spring framework with SeedStack:</description>
+    </item>
+    
+    <item>
+      <title>Aggregates</title>
+      <link>http://seedstack.org/docs/business/aggregates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/aggregates/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;callout callout-def&#34;&gt;
+    &lt;div style=&#34;display:table; width: 100%&#34;&gt;
+        &lt;div style=&#34;display:table-cell; width: 50px; vertical-align: middle;&#34;&gt;
+            
+            
+            
+            
+            
+            
+                &lt;i class=&#34;fa fa-quote-left icon-2x&#34;&gt;&lt;/i&gt;
+            
+        &lt;/div&gt;
+        &lt;div style=&#34;display:table-cell; vertical-align: middle;&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;An aggregate is a cluster of cohesive entities and value objects that is treated as a single unit.&lt;br&gt;
+Aggregates have clear boundaries and are loosely coupled to each other.&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Assemblers</title>
+      <link>http://seedstack.org/docs/business/assemblers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/assemblers/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;callout callout-def&#34;&gt;
+    &lt;div style=&#34;display:table; width: 100%&#34;&gt;
+        &lt;div style=&#34;display:table-cell; width: 50px; vertical-align: middle;&#34;&gt;
+            
+            
+            
+            
+            
+            
+                &lt;i class=&#34;fa fa-quote-left icon-2x&#34;&gt;&lt;/i&gt;
+            
+        &lt;/div&gt;
+        &lt;div style=&#34;display:table-cell; vertical-align: middle;&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;An assembler is an interface object responsible for mapping one or more aggregate(s) to a Data Transfer Object (DTO)
+and back.&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Basic samples</title>
+      <link>http://seedstack.org/docs/samples/basic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/samples/basic/</guid>
+      <description>A lot of small samples, demonstrating basic SeedStack features:
+ Business code, Command-line,
+ Configuration, Logging, Security, Diagnostic, Custom Guice module, Custom plugin, Command-line, JAX-RS resources, Web servlets, filters and listeners, WebSocket, Integration testing.    GitHub: https://github.com/seedstack/samples/tree/master/basics
+   </description>
+    </item>
+    
+    <item>
+      <title>Bibliography</title>
+      <link>http://seedstack.org/docs/business/bibliography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/bibliography/</guid>
+      <description>To go beyond what is described in this documentation, we recommend a few books which will help you to better understand DDD, independently of the business framework.
+Domain-Driven Design community  This is a major online resource about Domain-Driven Design with a lot of contents to discover and learn about it.
+ Online community  Eric Evans: Domain-Driven Design Reference  This book by Eric Evans is a summary of patterns and definitions of Domain-Driven Design.</description>
+    </item>
+    
+    <item>
+      <title>Business code</title>
+      <link>http://seedstack.org/docs/basics/business/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/business/</guid>
+      <description>Now it is time to spice up our &amp;laquo;Hello World&amp;raquo; application with some business code. With SeedStack business framework, it is easy to write clean and maintainable business code.
+Domain-Driven Design Domain-Driven Design is a software approach built on the idea of solving business problems through code. This is done by focusing on the heart of the business logic, to distill a design that can solve business problems.
+The business framework helps with the implementation of that domain model.</description>
+    </item>
+    
+    <item>
+      <title>CORS</title>
+      <link>http://seedstack.org/docs/web/cors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/cors/</guid>
+      <description>Cross-Origin Resource Sharing (CORS) is supported through a Java filter and can be enabled in any SeedStack application.
+  Seed integrates the CORS filter from dzhuvinov software. There is no need to install and configure the filter manually, it is automatically registered by Seed. All filter options can be specified through configuration properties.
+   Configuration CORS can be enabled and configuration as below:
+Configuration Tool    web: cors: # The servlet path mapping on which CORS will be active path: (String) # If true, Cross-Origin-Resource-Sharing (CORS) will be enabled enabled: (boolean) # Allows to specify custom properties to the CORS filter (see below) properties: key: (String)   To dump the web.</description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>http://seedstack.org/docs/core/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/configuration/</guid>
+      <description>&lt;p&gt;SeedStack provides a simple and powerful configuration system. Configuration can be read from multiple sources and in
+multiple formats. The recommended way to specify configuration is a &lt;a href=&#34;https://en.wikipedia.org/wiki/YAML&#34;&gt;YAML&lt;/a&gt; file
+named &lt;code&gt;application.yaml&lt;/code&gt; located at the root of the classpath.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cryptography</title>
+      <link>http://seedstack.org/docs/core/crypto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/crypto/</guid>
+      <description>&lt;p&gt;SeedStack support easy configuration of Java key stores and SSL along with services for private key encryption
+and secure hashing.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Defining commands</title>
+      <link>http://seedstack.org/docs/cli/commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/cli/commands/</guid>
+      <description>To define a CLI command, simply declare a class implementing the CommandLineHandler interface and annotated with @CliCommand:
+@CliCommand(&amp;quot;myCommand&amp;quot;) public class MyCommandLineHandler implements CommandLineHandler { @Override public Integer call() throws Exception { return 0; } }  This will register the command named myCommand without any option or argument. When this command is invoked from the command-line, the call method is invoked. You must return an integer code from this method which will be returned to the operating system.</description>
+    </item>
+    
+    <item>
+      <title>Dependency injection</title>
+      <link>http://seedstack.org/docs/basics/dependency-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/dependency-injection/</guid>
+      <description>&lt;p&gt;SeedStack development model is based on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Dependency_injection&#34;&gt;dependency injection principle&lt;/a&gt;
+where the dependencies of a class are injected in it by the framework instead of looked up.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Diagnostics</title>
+      <link>http://seedstack.org/docs/troubleshooting/diagnostics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/troubleshooting/diagnostics/</guid>
+      <description>Startup/shutdown diagnostic When an exception is thrown on startup or shutdown, the full stacktrace is displayed in the console. But a YAML diagnostic is also produced and written to a temporary directory. The diagnostic file contains information about the SeedStack and can be helpful to do advanced troubleshooting.
+A warning log will tell where the diagnostic file is saved:
+Diagnostic information dumped to file:///tmp/seedstack-diagnostics/seedstack-diagnostic-2019-06-06-14-06-21.111.yaml  Web request diagnostic If enabled, a diagnostic file can be dumped for each Web request ending with an exception.</description>
+    </item>
+    
+    <item>
+      <title>Domain events</title>
+      <link>http://seedstack.org/docs/business/domain-events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/domain-events/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;callout callout-def&#34;&gt;
+    &lt;div style=&#34;display:table; width: 100%&#34;&gt;
+        &lt;div style=&#34;display:table-cell; width: 50px; vertical-align: middle;&#34;&gt;
+            
+            
+            
+            
+            
+            
+                &lt;i class=&#34;fa fa-quote-left icon-2x&#34;&gt;&lt;/i&gt;
+            
+        &lt;/div&gt;
+        &lt;div style=&#34;display:table-cell; vertical-align: middle;&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;A domain event is used to represent something that happened in the domain.&lt;br&gt;
+It happened in the past and is of interest to the business.&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Download samples</title>
+      <link>http://seedstack.org/docs/samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/samples/</guid>
+      <description>&lt;p&gt;Try out the samples below to learn what SeedStack is capable of.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dump effective configuration</title>
+      <link>http://seedstack.org/docs/maven-plugin/effective-config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/effective-config/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;effective-config&lt;/code&gt; goal produces a YAML dump of the configuration as scanned, parsed and aggregated by SeedStack. 
+This will show the global configuration as the application sees it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dump effective test configuration</title>
+      <link>http://seedstack.org/docs/maven-plugin/effective-test-config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/effective-test-config/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;effective-test-config&lt;/code&gt; goal produces a YAML dump of the &lt;strong&gt;test&lt;/strong&gt; configuration as scanned, parsed and aggregated by SeedStack. 
+This will show the global configuration as the application sees it, including the test classpath.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Encrypting secrets</title>
+      <link>http://seedstack.org/docs/maven-plugin/crypt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/crypt/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;crypt&lt;/code&gt; goal encrypts the given argument using the application configured &lt;code&gt;master&lt;/code&gt; key store and the specified alias. 
+This allows to &lt;a href=&#34;http://seedstack.org/docs/seed/manual/crypto#encrypting-configuration-sensitive-values&#34;&gt;encrypt sensitive configuration values&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Entities</title>
+      <link>http://seedstack.org/docs/business/entities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/entities/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;callout callout-def&#34;&gt;
+    &lt;div style=&#34;display:table; width: 100%&#34;&gt;
+        &lt;div style=&#34;display:table-cell; width: 50px; vertical-align: middle;&#34;&gt;
+            
+            
+            
+            
+            
+            
+                &lt;i class=&#34;fa fa-quote-left icon-2x&#34;&gt;&lt;/i&gt;
+            
+        &lt;/div&gt;
+        &lt;div style=&#34;display:table-cell; vertical-align: middle;&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;An entity is used to represent a domain concept distinguished by an identity.&lt;br&gt;
+This identity must remain the same through the whole entity lifecycle.&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Exceptions</title>
+      <link>http://seedstack.org/docs/troubleshooting/exceptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/troubleshooting/exceptions/</guid>
+      <description>All SeedStack exceptions extend BaseException which is a RuntimeException. This means that you are not required to catch framework exceptions although you can do so if needed.
+All SeedStack exceptions display a detailed information report about the failure. Consider this example:
+org.seedstack.seed.SeedException: [CORE] Unexpected exception Description ----------- Unexpected exception during Seed startup or shutdown. Causes ------ 1. com.google.inject.ProvisionException: Unable to provision, see the following errors: 1) Error injecting org.seedstack.seed.core.ConfigurationIT$Holder using org.</description>
+    </item>
+    
+    <item>
+      <title>Factories</title>
+      <link>http://seedstack.org/docs/business/factories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/factories/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;callout callout-def&#34;&gt;
+    &lt;div style=&#34;display:table; width: 100%&#34;&gt;
+        &lt;div style=&#34;display:table-cell; width: 50px; vertical-align: middle;&#34;&gt;
+            
+            
+            
+            
+            
+            
+                &lt;i class=&#34;fa fa-quote-left icon-2x&#34;&gt;&lt;/i&gt;
+            
+        &lt;/div&gt;
+        &lt;div style=&#34;display:table-cell; vertical-align: middle;&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;A factory is responsible for creating a whole, internally consistent aggregate when it is too complicated to do
+it in a constructor.&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fluent assembler</title>
+      <link>http://seedstack.org/docs/business/fluent-assembler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/fluent-assembler/</guid>
+      <description>&lt;p&gt;As described in the &lt;a href=&#34;http://seedstack.org/docs/business/assemblers/&#34;&gt;assemblers page&lt;/a&gt;, you can inject assemblers and use them
+directly. However, the business framework provides a Domain-Specific Language (DSL) to do common Aggregate/DTO mapping
+operations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Full applications</title>
+      <link>http://seedstack.org/docs/samples/full/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/samples/full/</guid>
+      <description>Classic Web application This sample demonstrates a full end-to-end Web application:
+ Simple domain code, JPA persistence, REST resources, Assemblers, Pagination, Static resources serving, W20 UI.    GitHub: https://github.com/seedstack/samples/tree/master/full-apps/store-webapp Relevant docs: Business framework, JPA add-on, JDBC add-on, REST support, Web support, W20 UI framework.
+   REST micro-service This sample demonstrates an hypermedia-capable REST micro-service:
+ Business code JAX-RS resources, SeedStack hypermedia features: HAL and JSON-HOME. Integration testing.</description>
+    </item>
+    
+    <item>
+      <title>Getting started</title>
+      <link>http://seedstack.org/docs/basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/</guid>
+      <description>&lt;p&gt;This page will help you create and build your first SeedStack application.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hot-reloading</title>
+      <link>http://seedstack.org/docs/maven-plugin/watch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/watch/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;watch&lt;/code&gt; goal runs any self-executable SeedStack application in hot-reloading mode.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Integration testing</title>
+      <link>http://seedstack.org/docs/core/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/testing/</guid>
+      <description>&lt;p&gt;SeedStack provides several features and tools to do integration testing in your application.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JAR Packaging</title>
+      <link>http://seedstack.org/docs/maven-plugin/package/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/package/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;package&lt;/code&gt; goal packages any self-executable SeedStack application in a &lt;a href=&#34;http://www.capsule.io/&#34;&gt;Capsule&lt;/a&gt;.
+A Capsule is a way of packaging and running any application with all its dependencies from a unique plain executable JAR.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JNDI</title>
+      <link>http://seedstack.org/docs/core/jndi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/jndi/</guid>
+      <description>&lt;p&gt;SeedStack provides the ability to inject JNDI resources. Multiple JNDI contexts can be used in an application.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Layers</title>
+      <link>http://seedstack.org/docs/business/layers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/layers/</guid>
+      <description>Domain-Driven Design itself can be successfully applied in variety of software architectural styles. Some are very broad and tend to define every aspect of the system, others are more focused and try to address a specific demand.
+The business framework itself can adapt to several architectural styles. This documentation will focus on the traditional layered architecture from the Eric Evans DDD book, improved by the usage of the Dependency Inversion Principle.</description>
+    </item>
+    
+    <item>
+      <title>Learn the basics</title>
+      <link>http://seedstack.org/docs/basics/learn-the-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/learn-the-basics/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;SeedStack is an opinionated, simple Java development stack.&lt;/strong&gt; It is a general purpose development solution but does
+REST micro-services particularly well.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>List all configuration options</title>
+      <link>http://seedstack.org/docs/maven-plugin/config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/config/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;config&lt;/code&gt; goal dumps all the configuration options available in the project. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Logging</title>
+      <link>http://seedstack.org/docs/core/logging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/logging/</guid>
+      <description>Logging is a necessity in almost any application. SeedStack standardize logging through the popular SLF4J logging facade but the actual implementation is chosen at the project level.
+Recommended implementation SeedStack is compatible with any SLF4J implementation but we recommend Logback as an efficient, natural fit for SLF4J. To add Logback to your project, use the following dependency snippet:
+Maven Gradle   &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;ch.qos.logback&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;logback-classic&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;1.5.5&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  Specifying versions manually is error-prone, use dependency management instead.</description>
+    </item>
+    
+    <item>
+      <title>Package layout</title>
+      <link>http://seedstack.org/docs/business/package-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/package-layout/</guid>
+      <description>We recommend a well-defined package layout for organizing your business code according to the software architecture described above.
+The domain The root package for the domain layer is:
+[base.package].domain  The domain can be composed of several sub-domains that can be specified as sub-packages:
+[base.package].domain.subdomain1 [base.package].domain.subdomain2 ...  The domain package (or each sub-domain package if relevant) contains:
+ A model package containing aggregates, each in its own package. An aggregate package contains  The aggregate root along with other related entities and value objects, The factory interface if any, The repository interface if any, The aggregate policies if any.</description>
+    </item>
+    
+    <item>
+      <title>Pagination</title>
+      <link>http://seedstack.org/docs/business/pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/pagination/</guid>
+      <description>Pagination is a common need in business applications. The business framework provides a paginator</description>
+    </item>
+    
+    <item>
+      <title>Persistence</title>
+      <link>http://seedstack.org/docs/basics/persistence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/persistence/</guid>
+      <description>Now that we have a domain model, we would like to use some persistence with it. In Domain-Driven Design, persistence is done with Repositories which work on whole aggregates.
+We need some data first! To be able to test this, we need some sample data. A class implementing LifecycleListener will provide the opportunity to insert data at application startup.
+In the package infrastructure, create a SampleDataGenerator class:
+package org.generated.project.infrastructure; import javax.</description>
+    </item>
+    
+    <item>
+      <title>Policies</title>
+      <link>http://seedstack.org/docs/business/policies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/policies/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;callout callout-def&#34;&gt;
+    &lt;div style=&#34;display:table; width: 100%&#34;&gt;
+        &lt;div style=&#34;display:table-cell; width: 50px; vertical-align: middle;&#34;&gt;
+            
+            
+            
+            
+            
+            
+                &lt;i class=&#34;fa fa-quote-left icon-2x&#34;&gt;&lt;/i&gt;
+            
+        &lt;/div&gt;
+        &lt;div style=&#34;display:table-cell; vertical-align: middle;&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;A policy is used to encapsulate a varying business rule or process in a separate object.&lt;br&gt;
+Multiple versions of the policy object represent different ways the process can be done.&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Project generation</title>
+      <link>http://seedstack.org/docs/maven-plugin/generate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/generate/</guid>
+      <description>&lt;p&gt;To create a SeedStack project from scratch you can use &lt;code&gt;generate&lt;/code&gt; goal from the SeedStack Maven Plugin.
+This goal is invoked from the command line.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Proxy</title>
+      <link>http://seedstack.org/docs/core/proxy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/proxy/</guid>
+      <description>SeedStack has the ability to setup the JVM-wide proxy from configuration and/or environment variables.
+  Basic authentication HTTPS tunneling is disabled by default, starting from Java 8u111. This means that HTTPS proxies relying on basic authentication won&amp;rsquo;t work out of the box.
+To re-enable the basic scheme, remove the Basic term from the jdk.http.auth.tunneling.disabledSchemes system property, by setting it to empty or any relevant value.
+More details at https://www.</description>
+    </item>
+    
+    <item>
+      <title>Qualified injection</title>
+      <link>http://seedstack.org/docs/business/qualified-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/qualified-injection/</guid>
+      <description>In the business framework, you always inject dependencies by interface not by implementation class. For each injection point, two situations are possible:
+ If only one implementation exists for a specific interface, it is injected without ambiguity. If multiple exists for a specific interface, the injection point should be qualified to select the implementation to inject. This done by putting an qualifier annotation along the @Inject annotation.  Built-in qualifiers SeedStack provides several built-in qualifiers.</description>
+    </item>
+    
+    <item>
+      <title>REST</title>
+      <link>http://seedstack.org/docs/web/rest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/rest/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;seed-rest-core&lt;/code&gt; and its companion modules provides support for exposing REST resources using JAX-RS. SeedStack implements
+the JAX-RS standard through the &lt;a href=&#34;https://jersey.github.io/&#34;&gt;Jersey 2&lt;/a&gt; implementation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>REST API</title>
+      <link>http://seedstack.org/docs/basics/rest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/rest/</guid>
+      <description>We already have a minimal REST API that says Hello World! in our demo application. In this page we will enrich the API with some SeedStack
+A Swagger descriptor Swagger is a popular API description format. It helps in discovering API, whereas by humans or by machines.
+To add a Swagger descriptor to our project, we just need to add the following dependency:
+Maven Gradle   &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.seedstack.addons.swagger&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;swagger&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;2.</description>
+    </item>
+    
+    <item>
+      <title>Repositories</title>
+      <link>http://seedstack.org/docs/business/repositories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/repositories/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;callout callout-def&#34;&gt;
+    &lt;div style=&#34;display:table; width: 100%&#34;&gt;
+        &lt;div style=&#34;display:table-cell; width: 50px; vertical-align: middle;&#34;&gt;
+            
+            
+            
+            
+            
+            
+                &lt;i class=&#34;fa fa-quote-left icon-2x&#34;&gt;&lt;/i&gt;
+            
+        &lt;/div&gt;
+        &lt;div style=&#34;display:table-cell; vertical-align: middle;&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;A repository is responsible for consistently storing and retrieving a whole aggregate.&lt;br&gt;
+It has a simple collection-like global interface and optionally domain-specific methods.&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Running</title>
+      <link>http://seedstack.org/docs/maven-plugin/run/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/run/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;run&lt;/code&gt; goal runs any self-executable SeedStack application directly from the command line.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Running CLI applications</title>
+      <link>http://seedstack.org/docs/cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/cli/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;seed-cli&lt;/code&gt; module provides support for creating applications that are run from the command-line, accepting options
+and arguments. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Running Web applications</title>
+      <link>http://seedstack.org/docs/web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;seed-web-core&lt;/code&gt; and its companion modules provide support for Web technologies, such as Servlets, WebSockets, embedded
+Web servers, serving static resources, etc&amp;hellip; &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Running applications</title>
+      <link>http://seedstack.org/docs/core/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/</guid>
+      <description>Running a SeedStack application is done by using the SeedMain class as entry point. This main class searches for a launcher on the classpath and delegates the startup and shutdown logic to it. A launcher is a class implementing SeedLauncher.
+SeedStack provides two built-in launchers:
+ In the seed-cli module, for command-line applications. In the seed-web-undertow, for Web applications embedding their own server.    Web applications executed in a Servlet container don&amp;rsquo;t require a launcher as they are completely managed by the container.</description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>http://seedstack.org/docs/core/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/security/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;seed-security-core&lt;/code&gt; module provides application-level security. It takes charge of the following tasks:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>http://seedstack.org/docs/business/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/services/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;callout callout-def&#34;&gt;
+    &lt;div style=&#34;display:table; width: 100%&#34;&gt;
+        &lt;div style=&#34;display:table-cell; width: 50px; vertical-align: middle;&#34;&gt;
+            
+            
+            
+            
+            
+            
+                &lt;i class=&#34;fa fa-quote-left icon-2x&#34;&gt;&lt;/i&gt;
+            
+        &lt;/div&gt;
+        &lt;div style=&#34;display:table-cell; vertical-align: middle;&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;A service is a stateless object that implements domain, applicative or infrastructure logic.&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Servlet, filters and listeners</title>
+      <link>http://seedstack.org/docs/web/servlets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/servlets/</guid>
+      <description>Servlets, filters and listeners can be detected and registered by SeedStack which makes them injectable and interceptable.
+Servlets You can register a servlet by annotating your servlet class with @WebServlet:
+@WebServlet(&amp;quot;/my-servlet&amp;quot;) public class MyServlet extends HttpServlet { ... }    You can specify a priority on each listener to order them in the context initialization and destruction sequences: add a @Priority annotation to the listener class with the absolute priority as value.</description>
+    </item>
+    
+    <item>
+      <title>Shell function</title>
+      <link>http://seedstack.org/docs/maven-plugin/shell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/shell/</guid>
+      <description>To simplify the invocation of the SeedStack plugin you can define the following UNIX shell function in your profile:
+function seedstack { if [ -z &amp;quot;$1&amp;quot; ]; then echo &amp;quot;Usage: seedstack GOAL [ARGS]...&amp;quot; return 1 fi GOAL=$1 shift mvn -q -Dargs=&amp;quot;$*&amp;quot; org.seedstack:seedstack-maven-plugin:$GOAL }  This enables you to execute goals which use an args system property with real arguments:
+seedstack config application.basePackages  Which is the equivalent of:
+mvn -q -Dargs=&amp;quot;application.</description>
+    </item>
+    
+    <item>
+      <title>Specifications</title>
+      <link>http://seedstack.org/docs/business/specifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/specifications/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;callout callout-def&#34;&gt;
+    &lt;div style=&#34;display:table; width: 100%&#34;&gt;
+        &lt;div style=&#34;display:table-cell; width: 50px; vertical-align: middle;&#34;&gt;
+            
+            
+            
+            
+            
+            
+                &lt;i class=&#34;fa fa-quote-left icon-2x&#34;&gt;&lt;/i&gt;
+            
+        &lt;/div&gt;
+        &lt;div style=&#34;display:table-cell; vertical-align: middle;&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;A specification encapsulates a business criteria and is able to tell if a candidate object matches this criteria.&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Static resources</title>
+      <link>http://seedstack.org/docs/web/static-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/static-resources/</guid>
+      <description>SeedStack provides static resource serving from the classpath and the document root with some benefits over the container default resource serving:
+ Automatic serving of pre-minified and/or pre-gzipped versions of resources, On-the-fly gzipping of resources, Cache friendly.  Behavior The behavior is to serve resources located under the document root folder and, if not found, under the META-INF/resources classpath location on the /* path. For example, consider the following folder tree:</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>http://seedstack.org/docs/basics/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/testing/</guid>
+      <description>Testing is a crucial part of application development and should not be overlooked. SeedStack can help you to test your application by providing the necessary tools.
+Unit testing SeedStack doesn&amp;rsquo;t provide specific tools for unit-testing. Just write your unit tests as usual.
+Integration testing SeedStack provides several features to do integration testing. You can do things like altering configuration, defining launch arguments or set system properties. This can be done either for the execution of a full test class, for a specific test only, or both.</description>
+    </item>
+    
+    <item>
+      <title>Tool execution</title>
+      <link>http://seedstack.org/docs/maven-plugin/tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transactions</title>
+      <link>http://seedstack.org/docs/core/transactions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/transactions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>http://seedstack.org/docs/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/troubleshooting/</guid>
+      <description>For troubleshooting you can have a look at:
+ Diagnostics Exceptions  </description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>http://seedstack.org/docs/business/tutorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/tutorial/</guid>
+      <description>&lt;p&gt;This tutorial will guide you step-by-step in building a full application with SeedStack business framework.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Usage</title>
+      <link>http://seedstack.org/docs/maven-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/maven-plugin/</guid>
+      <description>&lt;p&gt;The SeedStack Maven plugin provides goals to manage SeedStack-based artifacts.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Validation</title>
+      <link>http://seedstack.org/docs/core/validation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/validation/</guid>
+      <description>&lt;p&gt;SeedStack provides built-in support for Bean Validation 1.1 (JSR 303 &amp;amp; JSR 349) in the core module. This is a part of
+the core, including the Hibernate Validator implementation which is automatically provided. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Value Objects</title>
+      <link>http://seedstack.org/docs/business/value-objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/value-objects/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;callout callout-def&#34;&gt;
+    &lt;div style=&#34;display:table; width: 100%&#34;&gt;
+        &lt;div style=&#34;display:table-cell; width: 50px; vertical-align: middle;&#34;&gt;
+            
+            
+            
+            
+            
+            
+                &lt;i class=&#34;fa fa-quote-left icon-2x&#34;&gt;&lt;/i&gt;
+            
+        &lt;/div&gt;
+        &lt;div style=&#34;display:table-cell; vertical-align: middle;&#34;&gt;
+            &lt;p&gt;&lt;strong&gt;A value object is used to describe or compute some characteristic of a domain concept.&lt;br&gt;
+It does not have an identity.&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Web integration testing</title>
+      <link>http://seedstack.org/docs/web/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/testing/</guid>
+      <description>&lt;p&gt;SeedStack provides support to do integration testing of Web applications.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Web security</title>
+      <link>http://seedstack.org/docs/web/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/security/</guid>
+      <description>In a Web application, security can be enforced at the HTTP-level by a servlet filter using URL filtering patterns. This feature requires the following dependency in your project:
+Maven Gradle   &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.seedstack.seed&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;seed-web-security&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;3.15.1&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  Specifying versions manually is error-prone, use dependency management instead. Show version   dependencies { compile(&amp;quot;org.seedstack.seed:seed-web-security:3.15.1&amp;quot;) }    The security servlet filter is automatically added on /* and has the ability to intercept all application URLs.</description>
+    </item>
+    
+    <item>
+      <title>WebSockets</title>
+      <link>http://seedstack.org/docs/web/websockets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/web/websockets/</guid>
+      <description>Seed also integrates the Java API for WebSocket (JSR 356), allowing server and client endpoints to be injected. WebSocket support requires Java 7 and a compatible server to work.
+Server endpoints Server endpoints have to explicitly specify a SeedBaseEndpointConfigurator to be managed by Seed.
+@ServerEndpoint(value = &amp;quot;/chat&amp;quot;, configurator = BaseServerEndpointConfigurator.class) public class ChatEndpoint { @Logging private Logger logger; @Inject EchoService echoService; @OnOpen public void onOpen(Session session) { logger.info(&amp;quot;Connected ... &amp;quot; + session.</description>
+    </item>
+    
+    <item>
+      <title>What is Domain-Driven Design ?</title>
+      <link>http://seedstack.org/docs/business/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/</guid>
+      <description>Domain-Driven Design is a software approach built on the idea of solving business problems through code. This is done by focusing on the heart of the business logic, to distill a design that can solve business problems.
+The business framework helps with the implementation of that domain model. It also provides default implementations and helpers to quickly address related needs like model mapping or pagination.
+What is DDD ? Domain-Driven Design (DDD) is a term coined by Eric Evans in his book &amp;laquo;Domain-Driven design&amp;raquo;, published in 2003.</description>
+    </item>
+    
+  </channel>
+</rss>

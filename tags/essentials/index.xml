@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Essentials on </title>
+    <link>http://seedstack.org/tags/essentials/</link>
+    <description>Recent content in Essentials on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/tags/essentials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Qualified injection</title>
+      <link>http://seedstack.org/docs/business/qualified-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/qualified-injection/</guid>
+      <description>In the business framework, you always inject dependencies by interface not by implementation class. For each injection point, two situations are possible:
+ If only one implementation exists for a specific interface, it is injected without ambiguity. If multiple exists for a specific interface, the injection point should be qualified to select the implementation to inject. This done by putting an qualifier annotation along the @Inject annotation.  Built-in qualifiers SeedStack provides several built-in qualifiers.</description>
+    </item>
+    
+    <item>
+      <title>What is Domain-Driven Design ?</title>
+      <link>http://seedstack.org/docs/business/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/</guid>
+      <description>Domain-Driven Design is a software approach built on the idea of solving business problems through code. This is done by focusing on the heart of the business logic, to distill a design that can solve business problems.
+The business framework helps with the implementation of that domain model. It also provides default implementations and helpers to quickly address related needs like model mapping or pagination.
+What is DDD ? Domain-Driven Design (DDD) is a term coined by Eric Evans in his book &amp;laquo;Domain-Driven design&amp;raquo;, published in 2003.</description>
+    </item>
+    
+  </channel>
+</rss>

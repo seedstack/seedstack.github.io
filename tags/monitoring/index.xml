@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitoring on </title>
+    <link>http://seedstack.org/tags/monitoring/</link>
+    <description>Recent content in Monitoring on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JMH</title>
+      <link>http://seedstack.org/addons/jmh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/jmh/</guid>
+      <description>&lt;p&gt;SeedStack JMH add-on provides integration of &lt;a href=&#34;http://openjdk.java.net/projects/code-tools/jmh/&#34;&gt;JMH&lt;/a&gt; which is a harness
+for building benchmarks.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Metrics</title>
+      <link>http://seedstack.org/addons/metrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/metrics/</guid>
+      <description>&lt;p&gt;SeedStack metrics add-on provides integration of &lt;a href=&#34;http://metrics.dropwizard.io/&#34;&gt;CodaHale Metrics&lt;/a&gt; to monitor applicative
+metrics and health.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>http://seedstack.org/addons/monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/monitoring/</guid>
+      <description>&lt;p&gt;The SeedStack monitoring add-on provides modules exposing API which report the monitoring status of your application to Web
+clients.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

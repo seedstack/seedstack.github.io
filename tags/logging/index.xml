@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logging on </title>
+    <link>http://seedstack.org/tags/logging/</link>
+    <description>Recent content in Logging on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/tags/logging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Logging</title>
+      <link>http://seedstack.org/docs/core/logging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/core/logging/</guid>
+      <description>Logging is a necessity in almost any application. SeedStack standardize logging through the popular SLF4J logging facade but the actual implementation is chosen at the project level.
+Recommended implementation SeedStack is compatible with any SLF4J implementation but we recommend Logback as an efficient, natural fit for SLF4J. To add Logback to your project, use the following dependency snippet:
+Maven Gradle   &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;ch.qos.logback&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;logback-classic&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;1.5.5&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  Specifying versions manually is error-prone, use dependency management instead.</description>
+    </item>
+    
+  </channel>
+</rss>

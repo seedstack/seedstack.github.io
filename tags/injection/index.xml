@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Injection on </title>
+    <link>http://seedstack.org/tags/injection/</link>
+    <description>Recent content in Injection on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://seedstack.org/tags/injection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Core</title>
+      <link>http://seedstack.org/addons/spring-bridge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/spring-bridge/</guid>
+      <description>&lt;p&gt;SeedStack Spring bridge add-on is a bi-directional injection bridge between SeedStack (Guice) and Spring. It allows to
+inject Spring beans with Guice and vice-versa.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dependency injection</title>
+      <link>http://seedstack.org/docs/basics/dependency-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/basics/dependency-injection/</guid>
+      <description>&lt;p&gt;SeedStack development model is based on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Dependency_injection&#34;&gt;dependency injection principle&lt;/a&gt;
+where the dependencies of a class are injected in it by the framework instead of looked up.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JCR Configuration</title>
+      <link>http://seedstack.org/addons/jcr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/addons/jcr/</guid>
+      <description>&lt;p&gt;SeedStack JCR add-on supports any JCR-compliant &lt;a href=&#34;https://en.wikipedia.org/wiki/Content_repository_API_for_Java&#34;&gt;Repository Content&lt;/a&gt; to allow
+your application to interface with a repository content.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Qualified injection</title>
+      <link>http://seedstack.org/docs/business/qualified-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://seedstack.org/docs/business/qualified-injection/</guid>
+      <description>In the business framework, you always inject dependencies by interface not by implementation class. For each injection point, two situations are possible:
+ If only one implementation exists for a specific interface, it is injected without ambiguity. If multiple exists for a specific interface, the injection point should be qualified to select the implementation to inject. This done by putting an qualifier annotation along the @Inject annotation.  Built-in qualifiers SeedStack provides several built-in qualifiers.</description>
+    </item>
+    
+  </channel>
+</rss>
